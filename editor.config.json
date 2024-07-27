@@ -1,0 +1,487 @@
+{
+  "themes": [
+    {
+      "id": "gkakdm",
+      "name": "样式1",
+      "type": "normal",
+      "children": [
+        {
+          "id": "vbgitr",
+          "type": "JsFile",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 0,
+            "y": 0,
+            "w": 192,
+            "h": 490,
+            "rotation": 0,
+            "name": "JS/LUA程序1",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "jsFilename": "_lua/mars/smash.lua",
+            "jsImgNames": [
+              "_lua/mars/Mars_0.rle",
+              "_lua/mars/Mars_1.rle",
+              "_lua/mars/Mars_10.rle",
+              "_lua/mars/Mars_11.rle",
+              "_lua/mars/Mars_12.rle",
+              "_lua/mars/Mars_13.rle",
+              "_lua/mars/Mars_14.rle",
+              "_lua/mars/Mars_15.rle",
+              "_lua/mars/Mars_16.rle",
+              "_lua/mars/Mars_17.rle",
+              "_lua/mars/Mars_18.rle",
+              "_lua/mars/Mars_19.rle",
+              "_lua/mars/Mars_2.rle",
+              "_lua/mars/Mars_20.rle",
+              "_lua/mars/Mars_21.rle",
+              "_lua/mars/Mars_22.rle",
+              "_lua/mars/Mars_23.rle",
+              "_lua/mars/Mars_24.rle",
+              "_lua/mars/Mars_25.rle",
+              "_lua/mars/Mars_26.rle",
+              "_lua/mars/Mars_27.rle",
+              "_lua/mars/Mars_28.rle",
+              "_lua/mars/Mars_29.rle",
+              "_lua/mars/Mars_3.rle",
+              "_lua/mars/Mars_30.rle",
+              "_lua/mars/Mars_31.rle",
+              "_lua/mars/Mars_32.rle",
+              "_lua/mars/Mars_33.rle",
+              "_lua/mars/Mars_34.rle",
+              "_lua/mars/Mars_35.rle",
+              "_lua/mars/Mars_36.rle",
+              "_lua/mars/Mars_37.rle",
+              "_lua/mars/Mars_38.rle",
+              "_lua/mars/Mars_39.rle",
+              "_lua/mars/Mars_4.rle",
+              "_lua/mars/Mars_40.rle",
+              "_lua/mars/Mars_41.rle",
+              "_lua/mars/Mars_42.rle",
+              "_lua/mars/Mars_43.rle",
+              "_lua/mars/Mars_44.rle",
+              "_lua/mars/Mars_45.rle",
+              "_lua/mars/Mars_46.rle",
+              "_lua/mars/Mars_5.rle",
+              "_lua/mars/Mars_6.rle",
+              "_lua/mars/Mars_7.rle",
+              "_lua/mars/Mars_8.rle",
+              "_lua/mars/Mars_9.rle"
+            ],
+            "fileRef": "layout引用",
+            "resources": {
+              "jsPreview": {}
+            }
+          }
+        },
+        {
+          "id": "d0s8i6",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 11,
+            "y": 16,
+            "w": 158,
+            "h": 122,
+            "rotation": 0,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": -0.5,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeHour",
+                "sourceFormat": 2
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1
+          }
+        },
+        {
+          "id": "g5w1av",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 11,
+            "y": 116,
+            "w": 162,
+            "h": 122,
+            "rotation": 0,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": -0.5,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeMinute",
+                "sourceFormat": 2
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1
+          }
+        },
+        {
+          "id": "tlmqvt",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 236,
+            "w": 109,
+            "h": 44,
+            "rotation": 0,
+            "name": "文本2",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fontId": "misans",
+            "fontSize": 33,
+            "fontWeight": "medium",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "date",
+                "sourceFormat": 12
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1
+          }
+        },
+        {
+          "id": "wzfvg8",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 275,
+            "w": 66,
+            "h": 37,
+            "rotation": 0,
+            "name": "文本3",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fontId": "misans",
+            "fontSize": 33,
+            "fontWeight": "medium",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "dateWeekStringShortCN"
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1
+          }
+        }
+      ],
+      "bgColor": "#000000",
+      "colorGroupTable": [
+        {
+          "id": "j1n8eb",
+          "name": "配色1",
+          "color": "#ffffff"
+        }
+      ],
+      "preview": "_preview/样式1亮屏预览图.png"
+    },
+    {
+      "id": "nlfx6f",
+      "name": "样式1",
+      "type": "AOD",
+      "children": [
+        {
+          "id": "8h20si",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "timeHour",
+            "valueStart": 0,
+            "valueEnd": 24,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 27,
+            "w": 70,
+            "h": 120,
+            "rotation": 0,
+            "name": "图组",
+            "showImgFormat": true,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "left",
+            "space": 0,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 2,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "j1n8eb": [
+                  "AOD/0_31475ca.png",
+                  "AOD/1_eb1ee7f.png",
+                  "AOD/2_ec7ec50.png",
+                  "AOD/3_2d262da.png",
+                  "AOD/4_1c83bdc.png",
+                  "AOD/5_1d53a68.png",
+                  "AOD/6_52c8ab9.png",
+                  "AOD/7_68eb9a7.png",
+                  "AOD/8_e01fb67.png",
+                  "AOD/9_31e2260.png"
+                ]
+              }
+            },
+            "decimalOffsetX": "0",
+            "trailingZero": false,
+            "format": "indexed8"
+          }
+        },
+        {
+          "id": "182phj",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "timeMinute",
+            "valueStart": 0,
+            "valueEnd": 60,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 126,
+            "w": 70,
+            "h": 120,
+            "rotation": 0,
+            "name": "图组",
+            "showImgFormat": true,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "left",
+            "space": 0,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 2,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "j1n8eb": [
+                  "AOD/0_31475ca.png",
+                  "AOD/1_eb1ee7f.png",
+                  "AOD/2_ec7ec50.png",
+                  "AOD/3_2d262da.png",
+                  "AOD/4_1c83bdc.png",
+                  "AOD/5_1d53a68.png",
+                  "AOD/6_52c8ab9.png",
+                  "AOD/7_68eb9a7.png",
+                  "AOD/8_e01fb67.png",
+                  "AOD/9_31e2260.png"
+                ]
+              }
+            },
+            "decimalOffsetX": "0",
+            "trailingZero": false,
+            "format": "indexed8"
+          }
+        },
+        {
+          "id": "58f68h",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 236,
+            "w": 109,
+            "h": 44,
+            "rotation": 0,
+            "name": "文本2",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fontId": "misans",
+            "fontSize": 33,
+            "fontWeight": "medium",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "date",
+                "sourceFormat": 12
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1
+          }
+        },
+        {
+          "id": "0uzfij",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 275,
+            "w": 66,
+            "h": 37,
+            "rotation": 0,
+            "name": "文本3",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fontId": "misans",
+            "fontSize": 33,
+            "fontWeight": "medium",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "dateWeekStringShortCN"
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1
+          }
+        }
+      ],
+      "bgColor": "#000000",
+      "colorGroupTable": [
+        {
+          "id": "j1n8eb",
+          "name": "配色1",
+          "color": "#ffffff"
+        }
+      ],
+      "preview": "_preview/样式1息屏预览图.png",
+      "isSingleAOD": true
+    }
+  ],
+  "i18n": {
+    "translations": {},
+    "locales": []
+  },
+  "formats": {
+    "_preview/样式1亮屏预览图.png": "indexed8",
+    "8789a2f.png": "indexed8",
+    "_preview/样式1息屏预览图.png": "indexed8",
+    "AOD/0_31475ca.png": "indexed8",
+    "AOD/1_eb1ee7f.png": "indexed8",
+    "AOD/2_ec7ec50.png": "indexed8",
+    "AOD/3_2d262da.png": "indexed8",
+    "AOD/4_1c83bdc.png": "indexed8",
+    "AOD/5_1d53a68.png": "indexed8",
+    "AOD/6_52c8ab9.png": "indexed8",
+    "AOD/7_68eb9a7.png": "indexed8",
+    "AOD/8_e01fb67.png": "indexed8",
+    "AOD/9_31e2260.png": "indexed8",
+    "535a70f.png": "indexed8",
+    "_preview/样式2亮屏预览图.png": "indexed8"
+  }
+}
