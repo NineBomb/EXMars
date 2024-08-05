@@ -1,9 +1,1266 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Watchface name="EX Mars" width="192" height="490" id="100231002" SKU="false" compressMethod="RLEReversed" editable="true">
     <Resources>
+        <Translation name="Translation1">
+            <Item language="zh_CN" str="恢复时间/跑力指数"/>
+            <Item language="en_US" str="恢复时间/跑力指数"/>
+            <Item language="zh_TW" str="恢复时间/跑力指数"/>
+            <Item language="ja_JP" str="恢复时间/跑力指数"/>
+            <Item language="es_ES" str="恢复时间/跑力指数"/>
+            <Item language="fr_FR" str="恢复时间/跑力指数"/>
+            <Item language="de_DE" str="恢复时间/跑力指数"/>
+            <Item language="ru_RU" str="恢复时间/跑力指数"/>
+            <Item language="pt_BR" str="恢复时间/跑力指数"/>
+            <Item language="pt_PT" str="恢复时间/跑力指数"/>
+            <Item language="it_IT" str="恢复时间/跑力指数"/>
+            <Item language="ko_KR" str="恢复时间/跑力指数"/>
+            <Item language="tr_TR" str="恢复时间/跑力指数"/>
+            <Item language="nl_NL" str="恢复时间/跑力指数"/>
+            <Item language="th_TH" str="恢复时间/跑力指数"/>
+            <Item language="sv_SE" str="恢复时间/跑力指数"/>
+            <Item language="da_DK" str="恢复时间/跑力指数"/>
+            <Item language="vi_VN" str="恢复时间/跑力指数"/>
+            <Item language="nb_NO" str="恢复时间/跑力指数"/>
+            <Item language="pl_PL" str="恢复时间/跑力指数"/>
+            <Item language="fi_FI" str="恢复时间/跑力指数"/>
+            <Item language="in_ID" str="恢复时间/跑力指数"/>
+            <Item language="el_GR" str="恢复时间/跑力指数"/>
+            <Item language="ro_RO" str="恢复时间/跑力指数"/>
+            <Item language="cs_CZ" str="恢复时间/跑力指数"/>
+            <Item language="uk_UA" str="恢复时间/跑力指数"/>
+            <Item language="sk_SK" str="恢复时间/跑力指数"/>
+            <Item language="hu_HU" str="恢复时间/跑力指数"/>
+            <Item language="ar_EG" str="恢复时间/跑力指数"/>
+            <Item language="iw_IL" str="恢复时间/跑力指数"/>
+            <Item language="zh_HK" str="恢复时间/跑力指数"/>
+        </Translation>
+        <Translation name="Translation2">
+            <Item language="zh_CN" str="双时区时间"/>
+            <Item language="en_US" str="双时区时间"/>
+            <Item language="zh_TW" str="双时区时间"/>
+            <Item language="ja_JP" str="双时区时间"/>
+            <Item language="es_ES" str="双时区时间"/>
+            <Item language="fr_FR" str="双时区时间"/>
+            <Item language="de_DE" str="双时区时间"/>
+            <Item language="ru_RU" str="双时区时间"/>
+            <Item language="pt_BR" str="双时区时间"/>
+            <Item language="pt_PT" str="双时区时间"/>
+            <Item language="it_IT" str="双时区时间"/>
+            <Item language="ko_KR" str="双时区时间"/>
+            <Item language="tr_TR" str="双时区时间"/>
+            <Item language="nl_NL" str="双时区时间"/>
+            <Item language="th_TH" str="双时区时间"/>
+            <Item language="sv_SE" str="双时区时间"/>
+            <Item language="da_DK" str="双时区时间"/>
+            <Item language="vi_VN" str="双时区时间"/>
+            <Item language="nb_NO" str="双时区时间"/>
+            <Item language="pl_PL" str="双时区时间"/>
+            <Item language="fi_FI" str="双时区时间"/>
+            <Item language="in_ID" str="双时区时间"/>
+            <Item language="el_GR" str="双时区时间"/>
+            <Item language="ro_RO" str="双时区时间"/>
+            <Item language="cs_CZ" str="双时区时间"/>
+            <Item language="uk_UA" str="双时区时间"/>
+            <Item language="sk_SK" str="双时区时间"/>
+            <Item language="hu_HU" str="双时区时间"/>
+            <Item language="ar_EG" str="双时区时间"/>
+            <Item language="iw_IL" str="双时区时间"/>
+            <Item language="zh_HK" str="双时区时间"/>
+        </Translation>
+        <Translation name="Translation3">
+            <Item language="zh_CN" str="农历日月"/>
+            <Item language="en_US" str="农历日月"/>
+            <Item language="zh_TW" str="农历日月"/>
+            <Item language="ja_JP" str="农历日月"/>
+            <Item language="es_ES" str="农历日月"/>
+            <Item language="fr_FR" str="农历日月"/>
+            <Item language="de_DE" str="农历日月"/>
+            <Item language="ru_RU" str="农历日月"/>
+            <Item language="pt_BR" str="农历日月"/>
+            <Item language="pt_PT" str="农历日月"/>
+            <Item language="it_IT" str="农历日月"/>
+            <Item language="ko_KR" str="农历日月"/>
+            <Item language="tr_TR" str="农历日月"/>
+            <Item language="nl_NL" str="农历日月"/>
+            <Item language="th_TH" str="农历日月"/>
+            <Item language="sv_SE" str="农历日月"/>
+            <Item language="da_DK" str="农历日月"/>
+            <Item language="vi_VN" str="农历日月"/>
+            <Item language="nb_NO" str="农历日月"/>
+            <Item language="pl_PL" str="农历日月"/>
+            <Item language="fi_FI" str="农历日月"/>
+            <Item language="in_ID" str="农历日月"/>
+            <Item language="el_GR" str="农历日月"/>
+            <Item language="ro_RO" str="农历日月"/>
+            <Item language="cs_CZ" str="农历日月"/>
+            <Item language="uk_UA" str="农历日月"/>
+            <Item language="sk_SK" str="农历日月"/>
+            <Item language="hu_HU" str="农历日月"/>
+            <Item language="ar_EG" str="农历日月"/>
+            <Item language="iw_IL" str="农历日月"/>
+            <Item language="zh_HK" str="农历日月"/>
+        </Translation>
+        <Translation name="Translation4">
+            <Item language="zh_CN" str="中高强度锻炼"/>
+            <Item language="en_US" str="中高强度锻炼"/>
+            <Item language="zh_TW" str="中高强度锻炼"/>
+            <Item language="ja_JP" str="中高强度锻炼"/>
+            <Item language="es_ES" str="中高强度锻炼"/>
+            <Item language="fr_FR" str="中高强度锻炼"/>
+            <Item language="de_DE" str="中高强度锻炼"/>
+            <Item language="ru_RU" str="中高强度锻炼"/>
+            <Item language="pt_BR" str="中高强度锻炼"/>
+            <Item language="pt_PT" str="中高强度锻炼"/>
+            <Item language="it_IT" str="中高强度锻炼"/>
+            <Item language="ko_KR" str="中高强度锻炼"/>
+            <Item language="tr_TR" str="中高强度锻炼"/>
+            <Item language="nl_NL" str="中高强度锻炼"/>
+            <Item language="th_TH" str="中高强度锻炼"/>
+            <Item language="sv_SE" str="中高强度锻炼"/>
+            <Item language="da_DK" str="中高强度锻炼"/>
+            <Item language="vi_VN" str="中高强度锻炼"/>
+            <Item language="nb_NO" str="中高强度锻炼"/>
+            <Item language="pl_PL" str="中高强度锻炼"/>
+            <Item language="fi_FI" str="中高强度锻炼"/>
+            <Item language="in_ID" str="中高强度锻炼"/>
+            <Item language="el_GR" str="中高强度锻炼"/>
+            <Item language="ro_RO" str="中高强度锻炼"/>
+            <Item language="cs_CZ" str="中高强度锻炼"/>
+            <Item language="uk_UA" str="中高强度锻炼"/>
+            <Item language="sk_SK" str="中高强度锻炼"/>
+            <Item language="hu_HU" str="中高强度锻炼"/>
+            <Item language="ar_EG" str="中高强度锻炼"/>
+            <Item language="iw_IL" str="中高强度锻炼"/>
+            <Item language="zh_HK" str="中高强度锻炼"/>
+        </Translation>
+        <Translation name="Translation5">
+            <Item language="zh_CN" str="日初日落"/>
+            <Item language="en_US" str="日初日落"/>
+            <Item language="zh_TW" str="日初日落"/>
+            <Item language="ja_JP" str="日初日落"/>
+            <Item language="es_ES" str="日初日落"/>
+            <Item language="fr_FR" str="日初日落"/>
+            <Item language="de_DE" str="日初日落"/>
+            <Item language="ru_RU" str="日初日落"/>
+            <Item language="pt_BR" str="日初日落"/>
+            <Item language="pt_PT" str="日初日落"/>
+            <Item language="it_IT" str="日初日落"/>
+            <Item language="ko_KR" str="日初日落"/>
+            <Item language="tr_TR" str="日初日落"/>
+            <Item language="nl_NL" str="日初日落"/>
+            <Item language="th_TH" str="日初日落"/>
+            <Item language="sv_SE" str="日初日落"/>
+            <Item language="da_DK" str="日初日落"/>
+            <Item language="vi_VN" str="日初日落"/>
+            <Item language="nb_NO" str="日初日落"/>
+            <Item language="pl_PL" str="日初日落"/>
+            <Item language="fi_FI" str="日初日落"/>
+            <Item language="in_ID" str="日初日落"/>
+            <Item language="el_GR" str="日初日落"/>
+            <Item language="ro_RO" str="日初日落"/>
+            <Item language="cs_CZ" str="日初日落"/>
+            <Item language="uk_UA" str="日初日落"/>
+            <Item language="sk_SK" str="日初日落"/>
+            <Item language="hu_HU" str="日初日落"/>
+            <Item language="ar_EG" str="日初日落"/>
+            <Item language="iw_IL" str="日初日落"/>
+            <Item language="zh_HK" str="日初日落"/>
+        </Translation>
+        <Translation name="Translation6">
+            <Item language="zh_CN" str="心率区间"/>
+            <Item language="en_US" str="心率区间"/>
+            <Item language="zh_TW" str="心率区间"/>
+            <Item language="ja_JP" str="心率区间"/>
+            <Item language="es_ES" str="心率区间"/>
+            <Item language="fr_FR" str="心率区间"/>
+            <Item language="de_DE" str="心率区间"/>
+            <Item language="ru_RU" str="心率区间"/>
+            <Item language="pt_BR" str="心率区间"/>
+            <Item language="pt_PT" str="心率区间"/>
+            <Item language="it_IT" str="心率区间"/>
+            <Item language="ko_KR" str="心率区间"/>
+            <Item language="tr_TR" str="心率区间"/>
+            <Item language="nl_NL" str="心率区间"/>
+            <Item language="th_TH" str="心率区间"/>
+            <Item language="sv_SE" str="心率区间"/>
+            <Item language="da_DK" str="心率区间"/>
+            <Item language="vi_VN" str="心率区间"/>
+            <Item language="nb_NO" str="心率区间"/>
+            <Item language="pl_PL" str="心率区间"/>
+            <Item language="fi_FI" str="心率区间"/>
+            <Item language="in_ID" str="心率区间"/>
+            <Item language="el_GR" str="心率区间"/>
+            <Item language="ro_RO" str="心率区间"/>
+            <Item language="cs_CZ" str="心率区间"/>
+            <Item language="uk_UA" str="心率区间"/>
+            <Item language="sk_SK" str="心率区间"/>
+            <Item language="hu_HU" str="心率区间"/>
+            <Item language="ar_EG" str="心率区间"/>
+            <Item language="iw_IL" str="心率区间"/>
+            <Item language="zh_HK" str="心率区间"/>
+        </Translation>
+        <Translation name="Translation7">
+            <Item language="zh_CN" str="最近闹钟"/>
+            <Item language="en_US" str="最近闹钟"/>
+            <Item language="zh_TW" str="最近闹钟"/>
+            <Item language="ja_JP" str="最近闹钟"/>
+            <Item language="es_ES" str="最近闹钟"/>
+            <Item language="fr_FR" str="最近闹钟"/>
+            <Item language="de_DE" str="最近闹钟"/>
+            <Item language="ru_RU" str="最近闹钟"/>
+            <Item language="pt_BR" str="最近闹钟"/>
+            <Item language="pt_PT" str="最近闹钟"/>
+            <Item language="it_IT" str="最近闹钟"/>
+            <Item language="ko_KR" str="最近闹钟"/>
+            <Item language="tr_TR" str="最近闹钟"/>
+            <Item language="nl_NL" str="最近闹钟"/>
+            <Item language="th_TH" str="最近闹钟"/>
+            <Item language="sv_SE" str="最近闹钟"/>
+            <Item language="da_DK" str="最近闹钟"/>
+            <Item language="vi_VN" str="最近闹钟"/>
+            <Item language="nb_NO" str="最近闹钟"/>
+            <Item language="pl_PL" str="最近闹钟"/>
+            <Item language="fi_FI" str="最近闹钟"/>
+            <Item language="in_ID" str="最近闹钟"/>
+            <Item language="el_GR" str="最近闹钟"/>
+            <Item language="ro_RO" str="最近闹钟"/>
+            <Item language="cs_CZ" str="最近闹钟"/>
+            <Item language="uk_UA" str="最近闹钟"/>
+            <Item language="sk_SK" str="最近闹钟"/>
+            <Item language="hu_HU" str="最近闹钟"/>
+            <Item language="ar_EG" str="最近闹钟"/>
+            <Item language="iw_IL" str="最近闹钟"/>
+            <Item language="zh_HK" str="最近闹钟"/>
+        </Translation>
+        <Translation name="Translation8">
+            <Item language="zh_CN" str="英文星期"/>
+            <Item language="en_US" str="英文星期"/>
+            <Item language="zh_TW" str="英文星期"/>
+            <Item language="ja_JP" str="英文星期"/>
+            <Item language="es_ES" str="英文星期"/>
+            <Item language="fr_FR" str="英文星期"/>
+            <Item language="de_DE" str="英文星期"/>
+            <Item language="ru_RU" str="英文星期"/>
+            <Item language="pt_BR" str="英文星期"/>
+            <Item language="pt_PT" str="英文星期"/>
+            <Item language="it_IT" str="英文星期"/>
+            <Item language="ko_KR" str="英文星期"/>
+            <Item language="tr_TR" str="英文星期"/>
+            <Item language="nl_NL" str="英文星期"/>
+            <Item language="th_TH" str="英文星期"/>
+            <Item language="sv_SE" str="英文星期"/>
+            <Item language="da_DK" str="英文星期"/>
+            <Item language="vi_VN" str="英文星期"/>
+            <Item language="nb_NO" str="英文星期"/>
+            <Item language="pl_PL" str="英文星期"/>
+            <Item language="fi_FI" str="英文星期"/>
+            <Item language="in_ID" str="英文星期"/>
+            <Item language="el_GR" str="英文星期"/>
+            <Item language="ro_RO" str="英文星期"/>
+            <Item language="cs_CZ" str="英文星期"/>
+            <Item language="uk_UA" str="英文星期"/>
+            <Item language="sk_SK" str="英文星期"/>
+            <Item language="hu_HU" str="英文星期"/>
+            <Item language="ar_EG" str="英文星期"/>
+            <Item language="iw_IL" str="英文星期"/>
+            <Item language="zh_HK" str="英文星期"/>
+        </Translation>
+        <Translation name="Translation9">
+            <Item language="zh_CN" str="气温区间"/>
+            <Item language="en_US" str="气温区间"/>
+            <Item language="zh_TW" str="气温区间"/>
+            <Item language="ja_JP" str="气温区间"/>
+            <Item language="es_ES" str="气温区间"/>
+            <Item language="fr_FR" str="气温区间"/>
+            <Item language="de_DE" str="气温区间"/>
+            <Item language="ru_RU" str="气温区间"/>
+            <Item language="pt_BR" str="气温区间"/>
+            <Item language="pt_PT" str="气温区间"/>
+            <Item language="it_IT" str="气温区间"/>
+            <Item language="ko_KR" str="气温区间"/>
+            <Item language="tr_TR" str="气温区间"/>
+            <Item language="nl_NL" str="气温区间"/>
+            <Item language="th_TH" str="气温区间"/>
+            <Item language="sv_SE" str="气温区间"/>
+            <Item language="da_DK" str="气温区间"/>
+            <Item language="vi_VN" str="气温区间"/>
+            <Item language="nb_NO" str="气温区间"/>
+            <Item language="pl_PL" str="气温区间"/>
+            <Item language="fi_FI" str="气温区间"/>
+            <Item language="in_ID" str="气温区间"/>
+            <Item language="el_GR" str="气温区间"/>
+            <Item language="ro_RO" str="气温区间"/>
+            <Item language="cs_CZ" str="气温区间"/>
+            <Item language="uk_UA" str="气温区间"/>
+            <Item language="sk_SK" str="气温区间"/>
+            <Item language="hu_HU" str="气温区间"/>
+            <Item language="ar_EG" str="气温区间"/>
+            <Item language="iw_IL" str="气温区间"/>
+            <Item language="zh_HK" str="气温区间"/>
+        </Translation>
+        <Translation name="Translation10">
+            <Item language="zh_CN" str="心率"/>
+            <Item language="en_US" str="心率"/>
+            <Item language="zh_TW" str="心率"/>
+            <Item language="ja_JP" str="心率"/>
+            <Item language="es_ES" str="心率"/>
+            <Item language="fr_FR" str="心率"/>
+            <Item language="de_DE" str="心率"/>
+            <Item language="ru_RU" str="心率"/>
+            <Item language="pt_BR" str="心率"/>
+            <Item language="pt_PT" str="心率"/>
+            <Item language="it_IT" str="心率"/>
+            <Item language="ko_KR" str="心率"/>
+            <Item language="tr_TR" str="心率"/>
+            <Item language="nl_NL" str="心率"/>
+            <Item language="th_TH" str="心率"/>
+            <Item language="sv_SE" str="心率"/>
+            <Item language="da_DK" str="心率"/>
+            <Item language="vi_VN" str="心率"/>
+            <Item language="nb_NO" str="心率"/>
+            <Item language="pl_PL" str="心率"/>
+            <Item language="fi_FI" str="心率"/>
+            <Item language="in_ID" str="心率"/>
+            <Item language="el_GR" str="心率"/>
+            <Item language="ro_RO" str="心率"/>
+            <Item language="cs_CZ" str="心率"/>
+            <Item language="uk_UA" str="心率"/>
+            <Item language="sk_SK" str="心率"/>
+            <Item language="hu_HU" str="心率"/>
+            <Item language="ar_EG" str="心率"/>
+            <Item language="iw_IL" str="心率"/>
+            <Item language="zh_HK" str="心率"/>
+        </Translation>
+        <Translation name="Translation11">
+            <Item language="zh_CN" str="湿度"/>
+            <Item language="en_US" str="湿度"/>
+            <Item language="zh_TW" str="湿度"/>
+            <Item language="ja_JP" str="湿度"/>
+            <Item language="es_ES" str="湿度"/>
+            <Item language="fr_FR" str="湿度"/>
+            <Item language="de_DE" str="湿度"/>
+            <Item language="ru_RU" str="湿度"/>
+            <Item language="pt_BR" str="湿度"/>
+            <Item language="pt_PT" str="湿度"/>
+            <Item language="it_IT" str="湿度"/>
+            <Item language="ko_KR" str="湿度"/>
+            <Item language="tr_TR" str="湿度"/>
+            <Item language="nl_NL" str="湿度"/>
+            <Item language="th_TH" str="湿度"/>
+            <Item language="sv_SE" str="湿度"/>
+            <Item language="da_DK" str="湿度"/>
+            <Item language="vi_VN" str="湿度"/>
+            <Item language="nb_NO" str="湿度"/>
+            <Item language="pl_PL" str="湿度"/>
+            <Item language="fi_FI" str="湿度"/>
+            <Item language="in_ID" str="湿度"/>
+            <Item language="el_GR" str="湿度"/>
+            <Item language="ro_RO" str="湿度"/>
+            <Item language="cs_CZ" str="湿度"/>
+            <Item language="uk_UA" str="湿度"/>
+            <Item language="sk_SK" str="湿度"/>
+            <Item language="hu_HU" str="湿度"/>
+            <Item language="ar_EG" str="湿度"/>
+            <Item language="iw_IL" str="湿度"/>
+            <Item language="zh_HK" str="湿度"/>
+        </Translation>
+        <Translation name="Translation12">
+            <Item language="zh_CN" str="电量"/>
+            <Item language="en_US" str="电量"/>
+            <Item language="zh_TW" str="电量"/>
+            <Item language="ja_JP" str="电量"/>
+            <Item language="es_ES" str="电量"/>
+            <Item language="fr_FR" str="电量"/>
+            <Item language="de_DE" str="电量"/>
+            <Item language="ru_RU" str="电量"/>
+            <Item language="pt_BR" str="电量"/>
+            <Item language="pt_PT" str="电量"/>
+            <Item language="it_IT" str="电量"/>
+            <Item language="ko_KR" str="电量"/>
+            <Item language="tr_TR" str="电量"/>
+            <Item language="nl_NL" str="电量"/>
+            <Item language="th_TH" str="电量"/>
+            <Item language="sv_SE" str="电量"/>
+            <Item language="da_DK" str="电量"/>
+            <Item language="vi_VN" str="电量"/>
+            <Item language="nb_NO" str="电量"/>
+            <Item language="pl_PL" str="电量"/>
+            <Item language="fi_FI" str="电量"/>
+            <Item language="in_ID" str="电量"/>
+            <Item language="el_GR" str="电量"/>
+            <Item language="ro_RO" str="电量"/>
+            <Item language="cs_CZ" str="电量"/>
+            <Item language="uk_UA" str="电量"/>
+            <Item language="sk_SK" str="电量"/>
+            <Item language="hu_HU" str="电量"/>
+            <Item language="ar_EG" str="电量"/>
+            <Item language="iw_IL" str="电量"/>
+            <Item language="zh_HK" str="电量"/>
+        </Translation>
+        <Translation name="Translation13">
+            <Item language="zh_CN" str="卡路里"/>
+            <Item language="en_US" str="卡路里"/>
+            <Item language="zh_TW" str="卡路里"/>
+            <Item language="ja_JP" str="卡路里"/>
+            <Item language="es_ES" str="卡路里"/>
+            <Item language="fr_FR" str="卡路里"/>
+            <Item language="de_DE" str="卡路里"/>
+            <Item language="ru_RU" str="卡路里"/>
+            <Item language="pt_BR" str="卡路里"/>
+            <Item language="pt_PT" str="卡路里"/>
+            <Item language="it_IT" str="卡路里"/>
+            <Item language="ko_KR" str="卡路里"/>
+            <Item language="tr_TR" str="卡路里"/>
+            <Item language="nl_NL" str="卡路里"/>
+            <Item language="th_TH" str="卡路里"/>
+            <Item language="sv_SE" str="卡路里"/>
+            <Item language="da_DK" str="卡路里"/>
+            <Item language="vi_VN" str="卡路里"/>
+            <Item language="nb_NO" str="卡路里"/>
+            <Item language="pl_PL" str="卡路里"/>
+            <Item language="fi_FI" str="卡路里"/>
+            <Item language="in_ID" str="卡路里"/>
+            <Item language="el_GR" str="卡路里"/>
+            <Item language="ro_RO" str="卡路里"/>
+            <Item language="cs_CZ" str="卡路里"/>
+            <Item language="uk_UA" str="卡路里"/>
+            <Item language="sk_SK" str="卡路里"/>
+            <Item language="hu_HU" str="卡路里"/>
+            <Item language="ar_EG" str="卡路里"/>
+            <Item language="iw_IL" str="卡路里"/>
+            <Item language="zh_HK" str="卡路里"/>
+        </Translation>
+        <Translation name="Translation14">
+            <Item language="zh_CN" str="步数"/>
+            <Item language="en_US" str="步数"/>
+            <Item language="zh_TW" str="步数"/>
+            <Item language="ja_JP" str="步数"/>
+            <Item language="es_ES" str="步数"/>
+            <Item language="fr_FR" str="步数"/>
+            <Item language="de_DE" str="步数"/>
+            <Item language="ru_RU" str="步数"/>
+            <Item language="pt_BR" str="步数"/>
+            <Item language="pt_PT" str="步数"/>
+            <Item language="it_IT" str="步数"/>
+            <Item language="ko_KR" str="步数"/>
+            <Item language="tr_TR" str="步数"/>
+            <Item language="nl_NL" str="步数"/>
+            <Item language="th_TH" str="步数"/>
+            <Item language="sv_SE" str="步数"/>
+            <Item language="da_DK" str="步数"/>
+            <Item language="vi_VN" str="步数"/>
+            <Item language="nb_NO" str="步数"/>
+            <Item language="pl_PL" str="步数"/>
+            <Item language="fi_FI" str="步数"/>
+            <Item language="in_ID" str="步数"/>
+            <Item language="el_GR" str="步数"/>
+            <Item language="ro_RO" str="步数"/>
+            <Item language="cs_CZ" str="步数"/>
+            <Item language="uk_UA" str="步数"/>
+            <Item language="sk_SK" str="步数"/>
+            <Item language="hu_HU" str="步数"/>
+            <Item language="ar_EG" str="步数"/>
+            <Item language="iw_IL" str="步数"/>
+            <Item language="zh_HK" str="步数"/>
+        </Translation>
+        <Translation name="Translation15">
+            <Item language="zh_CN" str="恢复时长"/>
+            <Item language="en_US" str="恢复时长"/>
+            <Item language="zh_TW" str="恢复时长"/>
+            <Item language="ja_JP" str="恢复时长"/>
+            <Item language="es_ES" str="恢复时长"/>
+            <Item language="fr_FR" str="恢复时长"/>
+            <Item language="de_DE" str="恢复时长"/>
+            <Item language="ru_RU" str="恢复时长"/>
+            <Item language="pt_BR" str="恢复时长"/>
+            <Item language="pt_PT" str="恢复时长"/>
+            <Item language="it_IT" str="恢复时长"/>
+            <Item language="ko_KR" str="恢复时长"/>
+            <Item language="tr_TR" str="恢复时长"/>
+            <Item language="nl_NL" str="恢复时长"/>
+            <Item language="th_TH" str="恢复时长"/>
+            <Item language="sv_SE" str="恢复时长"/>
+            <Item language="da_DK" str="恢复时长"/>
+            <Item language="vi_VN" str="恢复时长"/>
+            <Item language="nb_NO" str="恢复时长"/>
+            <Item language="pl_PL" str="恢复时长"/>
+            <Item language="fi_FI" str="恢复时长"/>
+            <Item language="in_ID" str="恢复时长"/>
+            <Item language="el_GR" str="恢复时长"/>
+            <Item language="ro_RO" str="恢复时长"/>
+            <Item language="cs_CZ" str="恢复时长"/>
+            <Item language="uk_UA" str="恢复时长"/>
+            <Item language="sk_SK" str="恢复时长"/>
+            <Item language="hu_HU" str="恢复时长"/>
+            <Item language="ar_EG" str="恢复时长"/>
+            <Item language="iw_IL" str="恢复时长"/>
+            <Item language="zh_HK" str="恢复时长"/>
+        </Translation>
+        <Translation name="Translation16">
+            <Item language="zh_CN" str="站立次数"/>
+            <Item language="en_US" str="站立次数"/>
+            <Item language="zh_TW" str="站立次数"/>
+            <Item language="ja_JP" str="站立次数"/>
+            <Item language="es_ES" str="站立次数"/>
+            <Item language="fr_FR" str="站立次数"/>
+            <Item language="de_DE" str="站立次数"/>
+            <Item language="ru_RU" str="站立次数"/>
+            <Item language="pt_BR" str="站立次数"/>
+            <Item language="pt_PT" str="站立次数"/>
+            <Item language="it_IT" str="站立次数"/>
+            <Item language="ko_KR" str="站立次数"/>
+            <Item language="tr_TR" str="站立次数"/>
+            <Item language="nl_NL" str="站立次数"/>
+            <Item language="th_TH" str="站立次数"/>
+            <Item language="sv_SE" str="站立次数"/>
+            <Item language="da_DK" str="站立次数"/>
+            <Item language="vi_VN" str="站立次数"/>
+            <Item language="nb_NO" str="站立次数"/>
+            <Item language="pl_PL" str="站立次数"/>
+            <Item language="fi_FI" str="站立次数"/>
+            <Item language="in_ID" str="站立次数"/>
+            <Item language="el_GR" str="站立次数"/>
+            <Item language="ro_RO" str="站立次数"/>
+            <Item language="cs_CZ" str="站立次数"/>
+            <Item language="uk_UA" str="站立次数"/>
+            <Item language="sk_SK" str="站立次数"/>
+            <Item language="hu_HU" str="站立次数"/>
+            <Item language="ar_EG" str="站立次数"/>
+            <Item language="iw_IL" str="站立次数"/>
+            <Item language="zh_HK" str="站立次数"/>
+        </Translation>
+        <Translation name="Translation17">
+            <Item language="zh_CN" str="日落时间"/>
+            <Item language="en_US" str="日落时间"/>
+            <Item language="zh_TW" str="日落时间"/>
+            <Item language="ja_JP" str="日落时间"/>
+            <Item language="es_ES" str="日落时间"/>
+            <Item language="fr_FR" str="日落时间"/>
+            <Item language="de_DE" str="日落时间"/>
+            <Item language="ru_RU" str="日落时间"/>
+            <Item language="pt_BR" str="日落时间"/>
+            <Item language="pt_PT" str="日落时间"/>
+            <Item language="it_IT" str="日落时间"/>
+            <Item language="ko_KR" str="日落时间"/>
+            <Item language="tr_TR" str="日落时间"/>
+            <Item language="nl_NL" str="日落时间"/>
+            <Item language="th_TH" str="日落时间"/>
+            <Item language="sv_SE" str="日落时间"/>
+            <Item language="da_DK" str="日落时间"/>
+            <Item language="vi_VN" str="日落时间"/>
+            <Item language="nb_NO" str="日落时间"/>
+            <Item language="pl_PL" str="日落时间"/>
+            <Item language="fi_FI" str="日落时间"/>
+            <Item language="in_ID" str="日落时间"/>
+            <Item language="el_GR" str="日落时间"/>
+            <Item language="ro_RO" str="日落时间"/>
+            <Item language="cs_CZ" str="日落时间"/>
+            <Item language="uk_UA" str="日落时间"/>
+            <Item language="sk_SK" str="日落时间"/>
+            <Item language="hu_HU" str="日落时间"/>
+            <Item language="ar_EG" str="日落时间"/>
+            <Item language="iw_IL" str="日落时间"/>
+            <Item language="zh_HK" str="日落时间"/>
+        </Translation>
+        <Translation name="Translation18">
+            <Item language="zh_CN" str="日出时间"/>
+            <Item language="en_US" str="日出时间"/>
+            <Item language="zh_TW" str="日出时间"/>
+            <Item language="ja_JP" str="日出时间"/>
+            <Item language="es_ES" str="日出时间"/>
+            <Item language="fr_FR" str="日出时间"/>
+            <Item language="de_DE" str="日出时间"/>
+            <Item language="ru_RU" str="日出时间"/>
+            <Item language="pt_BR" str="日出时间"/>
+            <Item language="pt_PT" str="日出时间"/>
+            <Item language="it_IT" str="日出时间"/>
+            <Item language="ko_KR" str="日出时间"/>
+            <Item language="tr_TR" str="日出时间"/>
+            <Item language="nl_NL" str="日出时间"/>
+            <Item language="th_TH" str="日出时间"/>
+            <Item language="sv_SE" str="日出时间"/>
+            <Item language="da_DK" str="日出时间"/>
+            <Item language="vi_VN" str="日出时间"/>
+            <Item language="nb_NO" str="日出时间"/>
+            <Item language="pl_PL" str="日出时间"/>
+            <Item language="fi_FI" str="日出时间"/>
+            <Item language="in_ID" str="日出时间"/>
+            <Item language="el_GR" str="日出时间"/>
+            <Item language="ro_RO" str="日出时间"/>
+            <Item language="cs_CZ" str="日出时间"/>
+            <Item language="uk_UA" str="日出时间"/>
+            <Item language="sk_SK" str="日出时间"/>
+            <Item language="hu_HU" str="日出时间"/>
+            <Item language="ar_EG" str="日出时间"/>
+            <Item language="iw_IL" str="日出时间"/>
+            <Item language="zh_HK" str="日出时间"/>
+        </Translation>
+        <Translation name="Translation19">
+            <Item language="zh_CN" str="双时区城市"/>
+            <Item language="en_US" str="双时区城市"/>
+            <Item language="zh_TW" str="双时区城市"/>
+            <Item language="ja_JP" str="双时区城市"/>
+            <Item language="es_ES" str="双时区城市"/>
+            <Item language="fr_FR" str="双时区城市"/>
+            <Item language="de_DE" str="双时区城市"/>
+            <Item language="ru_RU" str="双时区城市"/>
+            <Item language="pt_BR" str="双时区城市"/>
+            <Item language="pt_PT" str="双时区城市"/>
+            <Item language="it_IT" str="双时区城市"/>
+            <Item language="ko_KR" str="双时区城市"/>
+            <Item language="tr_TR" str="双时区城市"/>
+            <Item language="nl_NL" str="双时区城市"/>
+            <Item language="th_TH" str="双时区城市"/>
+            <Item language="sv_SE" str="双时区城市"/>
+            <Item language="da_DK" str="双时区城市"/>
+            <Item language="vi_VN" str="双时区城市"/>
+            <Item language="nb_NO" str="双时区城市"/>
+            <Item language="pl_PL" str="双时区城市"/>
+            <Item language="fi_FI" str="双时区城市"/>
+            <Item language="in_ID" str="双时区城市"/>
+            <Item language="el_GR" str="双时区城市"/>
+            <Item language="ro_RO" str="双时区城市"/>
+            <Item language="cs_CZ" str="双时区城市"/>
+            <Item language="uk_UA" str="双时区城市"/>
+            <Item language="sk_SK" str="双时区城市"/>
+            <Item language="hu_HU" str="双时区城市"/>
+            <Item language="ar_EG" str="双时区城市"/>
+            <Item language="iw_IL" str="双时区城市"/>
+            <Item language="zh_HK" str="双时区城市"/>
+        </Translation>
+        <Translation name="Translation20">
+            <Item language="zh_CN" str="步数进度"/>
+            <Item language="en_US" str="步数进度"/>
+            <Item language="zh_TW" str="步数进度"/>
+            <Item language="ja_JP" str="步数进度"/>
+            <Item language="es_ES" str="步数进度"/>
+            <Item language="fr_FR" str="步数进度"/>
+            <Item language="de_DE" str="步数进度"/>
+            <Item language="ru_RU" str="步数进度"/>
+            <Item language="pt_BR" str="步数进度"/>
+            <Item language="pt_PT" str="步数进度"/>
+            <Item language="it_IT" str="步数进度"/>
+            <Item language="ko_KR" str="步数进度"/>
+            <Item language="tr_TR" str="步数进度"/>
+            <Item language="nl_NL" str="步数进度"/>
+            <Item language="th_TH" str="步数进度"/>
+            <Item language="sv_SE" str="步数进度"/>
+            <Item language="da_DK" str="步数进度"/>
+            <Item language="vi_VN" str="步数进度"/>
+            <Item language="nb_NO" str="步数进度"/>
+            <Item language="pl_PL" str="步数进度"/>
+            <Item language="fi_FI" str="步数进度"/>
+            <Item language="in_ID" str="步数进度"/>
+            <Item language="el_GR" str="步数进度"/>
+            <Item language="ro_RO" str="步数进度"/>
+            <Item language="cs_CZ" str="步数进度"/>
+            <Item language="uk_UA" str="步数进度"/>
+            <Item language="sk_SK" str="步数进度"/>
+            <Item language="hu_HU" str="步数进度"/>
+            <Item language="ar_EG" str="步数进度"/>
+            <Item language="iw_IL" str="步数进度"/>
+            <Item language="zh_HK" str="步数进度"/>
+        </Translation>
+        <Translation name="Translation21">
+            <Item language="zh_CN" str="卡路里进度"/>
+            <Item language="en_US" str="卡路里进度"/>
+            <Item language="zh_TW" str="卡路里进度"/>
+            <Item language="ja_JP" str="卡路里进度"/>
+            <Item language="es_ES" str="卡路里进度"/>
+            <Item language="fr_FR" str="卡路里进度"/>
+            <Item language="de_DE" str="卡路里进度"/>
+            <Item language="ru_RU" str="卡路里进度"/>
+            <Item language="pt_BR" str="卡路里进度"/>
+            <Item language="pt_PT" str="卡路里进度"/>
+            <Item language="it_IT" str="卡路里进度"/>
+            <Item language="ko_KR" str="卡路里进度"/>
+            <Item language="tr_TR" str="卡路里进度"/>
+            <Item language="nl_NL" str="卡路里进度"/>
+            <Item language="th_TH" str="卡路里进度"/>
+            <Item language="sv_SE" str="卡路里进度"/>
+            <Item language="da_DK" str="卡路里进度"/>
+            <Item language="vi_VN" str="卡路里进度"/>
+            <Item language="nb_NO" str="卡路里进度"/>
+            <Item language="pl_PL" str="卡路里进度"/>
+            <Item language="fi_FI" str="卡路里进度"/>
+            <Item language="in_ID" str="卡路里进度"/>
+            <Item language="el_GR" str="卡路里进度"/>
+            <Item language="ro_RO" str="卡路里进度"/>
+            <Item language="cs_CZ" str="卡路里进度"/>
+            <Item language="uk_UA" str="卡路里进度"/>
+            <Item language="sk_SK" str="卡路里进度"/>
+            <Item language="hu_HU" str="卡路里进度"/>
+            <Item language="ar_EG" str="卡路里进度"/>
+            <Item language="iw_IL" str="卡路里进度"/>
+            <Item language="zh_HK" str="卡路里进度"/>
+        </Translation>
+        <Translation name="Translation22">
+            <Item language="zh_CN" str="能见度"/>
+            <Item language="en_US" str="能见度"/>
+            <Item language="zh_TW" str="能见度"/>
+            <Item language="ja_JP" str="能见度"/>
+            <Item language="es_ES" str="能见度"/>
+            <Item language="fr_FR" str="能见度"/>
+            <Item language="de_DE" str="能见度"/>
+            <Item language="ru_RU" str="能见度"/>
+            <Item language="pt_BR" str="能见度"/>
+            <Item language="pt_PT" str="能见度"/>
+            <Item language="it_IT" str="能见度"/>
+            <Item language="ko_KR" str="能见度"/>
+            <Item language="tr_TR" str="能见度"/>
+            <Item language="nl_NL" str="能见度"/>
+            <Item language="th_TH" str="能见度"/>
+            <Item language="sv_SE" str="能见度"/>
+            <Item language="da_DK" str="能见度"/>
+            <Item language="vi_VN" str="能见度"/>
+            <Item language="nb_NO" str="能见度"/>
+            <Item language="pl_PL" str="能见度"/>
+            <Item language="fi_FI" str="能见度"/>
+            <Item language="in_ID" str="能见度"/>
+            <Item language="el_GR" str="能见度"/>
+            <Item language="ro_RO" str="能见度"/>
+            <Item language="cs_CZ" str="能见度"/>
+            <Item language="uk_UA" str="能见度"/>
+            <Item language="sk_SK" str="能见度"/>
+            <Item language="hu_HU" str="能见度"/>
+            <Item language="ar_EG" str="能见度"/>
+            <Item language="iw_IL" str="能见度"/>
+            <Item language="zh_HK" str="能见度"/>
+        </Translation>
+        <Translation name="Translation23">
+            <Item language="zh_CN" str="降水概率"/>
+            <Item language="en_US" str="降水概率"/>
+            <Item language="zh_TW" str="降水概率"/>
+            <Item language="ja_JP" str="降水概率"/>
+            <Item language="es_ES" str="降水概率"/>
+            <Item language="fr_FR" str="降水概率"/>
+            <Item language="de_DE" str="降水概率"/>
+            <Item language="ru_RU" str="降水概率"/>
+            <Item language="pt_BR" str="降水概率"/>
+            <Item language="pt_PT" str="降水概率"/>
+            <Item language="it_IT" str="降水概率"/>
+            <Item language="ko_KR" str="降水概率"/>
+            <Item language="tr_TR" str="降水概率"/>
+            <Item language="nl_NL" str="降水概率"/>
+            <Item language="th_TH" str="降水概率"/>
+            <Item language="sv_SE" str="降水概率"/>
+            <Item language="da_DK" str="降水概率"/>
+            <Item language="vi_VN" str="降水概率"/>
+            <Item language="nb_NO" str="降水概率"/>
+            <Item language="pl_PL" str="降水概率"/>
+            <Item language="fi_FI" str="降水概率"/>
+            <Item language="in_ID" str="降水概率"/>
+            <Item language="el_GR" str="降水概率"/>
+            <Item language="ro_RO" str="降水概率"/>
+            <Item language="cs_CZ" str="降水概率"/>
+            <Item language="uk_UA" str="降水概率"/>
+            <Item language="sk_SK" str="降水概率"/>
+            <Item language="hu_HU" str="降水概率"/>
+            <Item language="ar_EG" str="降水概率"/>
+            <Item language="iw_IL" str="降水概率"/>
+            <Item language="zh_HK" str="降水概率"/>
+        </Translation>
+        <Translation name="Translation24">
+            <Item language="zh_CN" str="温度"/>
+            <Item language="en_US" str="温度"/>
+            <Item language="zh_TW" str="温度"/>
+            <Item language="ja_JP" str="温度"/>
+            <Item language="es_ES" str="温度"/>
+            <Item language="fr_FR" str="温度"/>
+            <Item language="de_DE" str="温度"/>
+            <Item language="ru_RU" str="温度"/>
+            <Item language="pt_BR" str="温度"/>
+            <Item language="pt_PT" str="温度"/>
+            <Item language="it_IT" str="温度"/>
+            <Item language="ko_KR" str="温度"/>
+            <Item language="tr_TR" str="温度"/>
+            <Item language="nl_NL" str="温度"/>
+            <Item language="th_TH" str="温度"/>
+            <Item language="sv_SE" str="温度"/>
+            <Item language="da_DK" str="温度"/>
+            <Item language="vi_VN" str="温度"/>
+            <Item language="nb_NO" str="温度"/>
+            <Item language="pl_PL" str="温度"/>
+            <Item language="fi_FI" str="温度"/>
+            <Item language="in_ID" str="温度"/>
+            <Item language="el_GR" str="温度"/>
+            <Item language="ro_RO" str="温度"/>
+            <Item language="cs_CZ" str="温度"/>
+            <Item language="uk_UA" str="温度"/>
+            <Item language="sk_SK" str="温度"/>
+            <Item language="hu_HU" str="温度"/>
+            <Item language="ar_EG" str="温度"/>
+            <Item language="iw_IL" str="温度"/>
+            <Item language="zh_HK" str="温度"/>
+        </Translation>
+        <Translation name="Translation25">
+            <Item language="zh_CN" str="睡眠时长"/>
+            <Item language="en_US" str="睡眠时长"/>
+            <Item language="zh_TW" str="睡眠时长"/>
+            <Item language="ja_JP" str="睡眠时长"/>
+            <Item language="es_ES" str="睡眠时长"/>
+            <Item language="fr_FR" str="睡眠时长"/>
+            <Item language="de_DE" str="睡眠时长"/>
+            <Item language="ru_RU" str="睡眠时长"/>
+            <Item language="pt_BR" str="睡眠时长"/>
+            <Item language="pt_PT" str="睡眠时长"/>
+            <Item language="it_IT" str="睡眠时长"/>
+            <Item language="ko_KR" str="睡眠时长"/>
+            <Item language="tr_TR" str="睡眠时长"/>
+            <Item language="nl_NL" str="睡眠时长"/>
+            <Item language="th_TH" str="睡眠时长"/>
+            <Item language="sv_SE" str="睡眠时长"/>
+            <Item language="da_DK" str="睡眠时长"/>
+            <Item language="vi_VN" str="睡眠时长"/>
+            <Item language="nb_NO" str="睡眠时长"/>
+            <Item language="pl_PL" str="睡眠时长"/>
+            <Item language="fi_FI" str="睡眠时长"/>
+            <Item language="in_ID" str="睡眠时长"/>
+            <Item language="el_GR" str="睡眠时长"/>
+            <Item language="ro_RO" str="睡眠时长"/>
+            <Item language="cs_CZ" str="睡眠时长"/>
+            <Item language="uk_UA" str="睡眠时长"/>
+            <Item language="sk_SK" str="睡眠时长"/>
+            <Item language="hu_HU" str="睡眠时长"/>
+            <Item language="ar_EG" str="睡眠时长"/>
+            <Item language="iw_IL" str="睡眠时长"/>
+            <Item language="zh_HK" str="睡眠时长"/>
+        </Translation>
+        <Translation name="Translation26">
+            <Item language="zh_CN" str="血氧"/>
+            <Item language="en_US" str="血氧"/>
+            <Item language="zh_TW" str="血氧"/>
+            <Item language="ja_JP" str="血氧"/>
+            <Item language="es_ES" str="血氧"/>
+            <Item language="fr_FR" str="血氧"/>
+            <Item language="de_DE" str="血氧"/>
+            <Item language="ru_RU" str="血氧"/>
+            <Item language="pt_BR" str="血氧"/>
+            <Item language="pt_PT" str="血氧"/>
+            <Item language="it_IT" str="血氧"/>
+            <Item language="ko_KR" str="血氧"/>
+            <Item language="tr_TR" str="血氧"/>
+            <Item language="nl_NL" str="血氧"/>
+            <Item language="th_TH" str="血氧"/>
+            <Item language="sv_SE" str="血氧"/>
+            <Item language="da_DK" str="血氧"/>
+            <Item language="vi_VN" str="血氧"/>
+            <Item language="nb_NO" str="血氧"/>
+            <Item language="pl_PL" str="血氧"/>
+            <Item language="fi_FI" str="血氧"/>
+            <Item language="in_ID" str="血氧"/>
+            <Item language="el_GR" str="血氧"/>
+            <Item language="ro_RO" str="血氧"/>
+            <Item language="cs_CZ" str="血氧"/>
+            <Item language="uk_UA" str="血氧"/>
+            <Item language="sk_SK" str="血氧"/>
+            <Item language="hu_HU" str="血氧"/>
+            <Item language="ar_EG" str="血氧"/>
+            <Item language="iw_IL" str="血氧"/>
+            <Item language="zh_HK" str="血氧"/>
+        </Translation>
+        <Translation name="Translation27">
+            <Item language="zh_CN" str="秒"/>
+            <Item language="en_US" str="秒"/>
+            <Item language="zh_TW" str="秒"/>
+            <Item language="ja_JP" str="秒"/>
+            <Item language="es_ES" str="秒"/>
+            <Item language="fr_FR" str="秒"/>
+            <Item language="de_DE" str="秒"/>
+            <Item language="ru_RU" str="秒"/>
+            <Item language="pt_BR" str="秒"/>
+            <Item language="pt_PT" str="秒"/>
+            <Item language="it_IT" str="秒"/>
+            <Item language="ko_KR" str="秒"/>
+            <Item language="tr_TR" str="秒"/>
+            <Item language="nl_NL" str="秒"/>
+            <Item language="th_TH" str="秒"/>
+            <Item language="sv_SE" str="秒"/>
+            <Item language="da_DK" str="秒"/>
+            <Item language="vi_VN" str="秒"/>
+            <Item language="nb_NO" str="秒"/>
+            <Item language="pl_PL" str="秒"/>
+            <Item language="fi_FI" str="秒"/>
+            <Item language="in_ID" str="秒"/>
+            <Item language="el_GR" str="秒"/>
+            <Item language="ro_RO" str="秒"/>
+            <Item language="cs_CZ" str="秒"/>
+            <Item language="uk_UA" str="秒"/>
+            <Item language="sk_SK" str="秒"/>
+            <Item language="hu_HU" str="秒"/>
+            <Item language="ar_EG" str="秒"/>
+            <Item language="iw_IL" str="秒"/>
+            <Item language="zh_HK" str="秒"/>
+        </Translation>
+        <Translation name="Translation28">
+            <Item language="zh_CN" str="年"/>
+            <Item language="en_US" str="年"/>
+            <Item language="zh_TW" str="年"/>
+            <Item language="ja_JP" str="年"/>
+            <Item language="es_ES" str="年"/>
+            <Item language="fr_FR" str="年"/>
+            <Item language="de_DE" str="年"/>
+            <Item language="ru_RU" str="年"/>
+            <Item language="pt_BR" str="年"/>
+            <Item language="pt_PT" str="年"/>
+            <Item language="it_IT" str="年"/>
+            <Item language="ko_KR" str="年"/>
+            <Item language="tr_TR" str="年"/>
+            <Item language="nl_NL" str="年"/>
+            <Item language="th_TH" str="年"/>
+            <Item language="sv_SE" str="年"/>
+            <Item language="da_DK" str="年"/>
+            <Item language="vi_VN" str="年"/>
+            <Item language="nb_NO" str="年"/>
+            <Item language="pl_PL" str="年"/>
+            <Item language="fi_FI" str="年"/>
+            <Item language="in_ID" str="年"/>
+            <Item language="el_GR" str="年"/>
+            <Item language="ro_RO" str="年"/>
+            <Item language="cs_CZ" str="年"/>
+            <Item language="uk_UA" str="年"/>
+            <Item language="sk_SK" str="年"/>
+            <Item language="hu_HU" str="年"/>
+            <Item language="ar_EG" str="年"/>
+            <Item language="iw_IL" str="年"/>
+            <Item language="zh_HK" str="年"/>
+        </Translation>
+        <Translation name="Translation29">
+            <Item language="zh_CN" str="降雨概率"/>
+            <Item language="en_US" str="降雨概率"/>
+            <Item language="zh_TW" str="降雨概率"/>
+            <Item language="ja_JP" str="降雨概率"/>
+            <Item language="es_ES" str="降雨概率"/>
+            <Item language="fr_FR" str="降雨概率"/>
+            <Item language="de_DE" str="降雨概率"/>
+            <Item language="ru_RU" str="降雨概率"/>
+            <Item language="pt_BR" str="降雨概率"/>
+            <Item language="pt_PT" str="降雨概率"/>
+            <Item language="it_IT" str="降雨概率"/>
+            <Item language="ko_KR" str="降雨概率"/>
+            <Item language="tr_TR" str="降雨概率"/>
+            <Item language="nl_NL" str="降雨概率"/>
+            <Item language="th_TH" str="降雨概率"/>
+            <Item language="sv_SE" str="降雨概率"/>
+            <Item language="da_DK" str="降雨概率"/>
+            <Item language="vi_VN" str="降雨概率"/>
+            <Item language="nb_NO" str="降雨概率"/>
+            <Item language="pl_PL" str="降雨概率"/>
+            <Item language="fi_FI" str="降雨概率"/>
+            <Item language="in_ID" str="降雨概率"/>
+            <Item language="el_GR" str="降雨概率"/>
+            <Item language="ro_RO" str="降雨概率"/>
+            <Item language="cs_CZ" str="降雨概率"/>
+            <Item language="uk_UA" str="降雨概率"/>
+            <Item language="sk_SK" str="降雨概率"/>
+            <Item language="hu_HU" str="降雨概率"/>
+            <Item language="ar_EG" str="降雨概率"/>
+            <Item language="iw_IL" str="降雨概率"/>
+            <Item language="zh_HK" str="降雨概率"/>
+        </Translation>
+        <Translation name="Translation30">
+            <Item language="zh_CN" str="恢复时间"/>
+            <Item language="en_US" str="恢复时间"/>
+            <Item language="zh_TW" str="恢复时间"/>
+            <Item language="ja_JP" str="恢复时间"/>
+            <Item language="es_ES" str="恢复时间"/>
+            <Item language="fr_FR" str="恢复时间"/>
+            <Item language="de_DE" str="恢复时间"/>
+            <Item language="ru_RU" str="恢复时间"/>
+            <Item language="pt_BR" str="恢复时间"/>
+            <Item language="pt_PT" str="恢复时间"/>
+            <Item language="it_IT" str="恢复时间"/>
+            <Item language="ko_KR" str="恢复时间"/>
+            <Item language="tr_TR" str="恢复时间"/>
+            <Item language="nl_NL" str="恢复时间"/>
+            <Item language="th_TH" str="恢复时间"/>
+            <Item language="sv_SE" str="恢复时间"/>
+            <Item language="da_DK" str="恢复时间"/>
+            <Item language="vi_VN" str="恢复时间"/>
+            <Item language="nb_NO" str="恢复时间"/>
+            <Item language="pl_PL" str="恢复时间"/>
+            <Item language="fi_FI" str="恢复时间"/>
+            <Item language="in_ID" str="恢复时间"/>
+            <Item language="el_GR" str="恢复时间"/>
+            <Item language="ro_RO" str="恢复时间"/>
+            <Item language="cs_CZ" str="恢复时间"/>
+            <Item language="uk_UA" str="恢复时间"/>
+            <Item language="sk_SK" str="恢复时间"/>
+            <Item language="hu_HU" str="恢复时间"/>
+            <Item language="ar_EG" str="恢复时间"/>
+            <Item language="iw_IL" str="恢复时间"/>
+            <Item language="zh_HK" str="恢复时间"/>
+        </Translation>
+        <Translation name="Translation31">
+            <Item language="zh_CN" str="天干地支"/>
+            <Item language="en_US" str="天干地支"/>
+            <Item language="zh_TW" str="天干地支"/>
+            <Item language="ja_JP" str="天干地支"/>
+            <Item language="es_ES" str="天干地支"/>
+            <Item language="fr_FR" str="天干地支"/>
+            <Item language="de_DE" str="天干地支"/>
+            <Item language="ru_RU" str="天干地支"/>
+            <Item language="pt_BR" str="天干地支"/>
+            <Item language="pt_PT" str="天干地支"/>
+            <Item language="it_IT" str="天干地支"/>
+            <Item language="ko_KR" str="天干地支"/>
+            <Item language="tr_TR" str="天干地支"/>
+            <Item language="nl_NL" str="天干地支"/>
+            <Item language="th_TH" str="天干地支"/>
+            <Item language="sv_SE" str="天干地支"/>
+            <Item language="da_DK" str="天干地支"/>
+            <Item language="vi_VN" str="天干地支"/>
+            <Item language="nb_NO" str="天干地支"/>
+            <Item language="pl_PL" str="天干地支"/>
+            <Item language="fi_FI" str="天干地支"/>
+            <Item language="in_ID" str="天干地支"/>
+            <Item language="el_GR" str="天干地支"/>
+            <Item language="ro_RO" str="天干地支"/>
+            <Item language="cs_CZ" str="天干地支"/>
+            <Item language="uk_UA" str="天干地支"/>
+            <Item language="sk_SK" str="天干地支"/>
+            <Item language="hu_HU" str="天干地支"/>
+            <Item language="ar_EG" str="天干地支"/>
+            <Item language="iw_IL" str="天干地支"/>
+            <Item language="zh_HK" str="天干地支"/>
+        </Translation>
+        <Translation name="Translation32">
+            <Item language="zh_CN" str="气温"/>
+            <Item language="en_US" str="气温"/>
+            <Item language="zh_TW" str="气温"/>
+            <Item language="ja_JP" str="气温"/>
+            <Item language="es_ES" str="气温"/>
+            <Item language="fr_FR" str="气温"/>
+            <Item language="de_DE" str="气温"/>
+            <Item language="ru_RU" str="气温"/>
+            <Item language="pt_BR" str="气温"/>
+            <Item language="pt_PT" str="气温"/>
+            <Item language="it_IT" str="气温"/>
+            <Item language="ko_KR" str="气温"/>
+            <Item language="tr_TR" str="气温"/>
+            <Item language="nl_NL" str="气温"/>
+            <Item language="th_TH" str="气温"/>
+            <Item language="sv_SE" str="气温"/>
+            <Item language="da_DK" str="气温"/>
+            <Item language="vi_VN" str="气温"/>
+            <Item language="nb_NO" str="气温"/>
+            <Item language="pl_PL" str="气温"/>
+            <Item language="fi_FI" str="气温"/>
+            <Item language="in_ID" str="气温"/>
+            <Item language="el_GR" str="气温"/>
+            <Item language="ro_RO" str="气温"/>
+            <Item language="cs_CZ" str="气温"/>
+            <Item language="uk_UA" str="气温"/>
+            <Item language="sk_SK" str="气温"/>
+            <Item language="hu_HU" str="气温"/>
+            <Item language="ar_EG" str="气温"/>
+            <Item language="iw_IL" str="气温"/>
+            <Item language="zh_HK" str="气温"/>
+        </Translation>
+        <Translation name="Translation33">
+            <Item language="zh_CN" str="月日"/>
+            <Item language="en_US" str="月日"/>
+            <Item language="zh_TW" str="月日"/>
+            <Item language="ja_JP" str="月日"/>
+            <Item language="es_ES" str="月日"/>
+            <Item language="fr_FR" str="月日"/>
+            <Item language="de_DE" str="月日"/>
+            <Item language="ru_RU" str="月日"/>
+            <Item language="pt_BR" str="月日"/>
+            <Item language="pt_PT" str="月日"/>
+            <Item language="it_IT" str="月日"/>
+            <Item language="ko_KR" str="月日"/>
+            <Item language="tr_TR" str="月日"/>
+            <Item language="nl_NL" str="月日"/>
+            <Item language="th_TH" str="月日"/>
+            <Item language="sv_SE" str="月日"/>
+            <Item language="da_DK" str="月日"/>
+            <Item language="vi_VN" str="月日"/>
+            <Item language="nb_NO" str="月日"/>
+            <Item language="pl_PL" str="月日"/>
+            <Item language="fi_FI" str="月日"/>
+            <Item language="in_ID" str="月日"/>
+            <Item language="el_GR" str="月日"/>
+            <Item language="ro_RO" str="月日"/>
+            <Item language="cs_CZ" str="月日"/>
+            <Item language="uk_UA" str="月日"/>
+            <Item language="sk_SK" str="月日"/>
+            <Item language="hu_HU" str="月日"/>
+            <Item language="ar_EG" str="月日"/>
+            <Item language="iw_IL" str="月日"/>
+            <Item language="zh_HK" str="月日"/>
+        </Translation>
+        <Translation name="Translation34">
+            <Item language="zh_CN" str="星期"/>
+            <Item language="en_US" str="星期"/>
+            <Item language="zh_TW" str="星期"/>
+            <Item language="ja_JP" str="星期"/>
+            <Item language="es_ES" str="星期"/>
+            <Item language="fr_FR" str="星期"/>
+            <Item language="de_DE" str="星期"/>
+            <Item language="ru_RU" str="星期"/>
+            <Item language="pt_BR" str="星期"/>
+            <Item language="pt_PT" str="星期"/>
+            <Item language="it_IT" str="星期"/>
+            <Item language="ko_KR" str="星期"/>
+            <Item language="tr_TR" str="星期"/>
+            <Item language="nl_NL" str="星期"/>
+            <Item language="th_TH" str="星期"/>
+            <Item language="sv_SE" str="星期"/>
+            <Item language="da_DK" str="星期"/>
+            <Item language="vi_VN" str="星期"/>
+            <Item language="nb_NO" str="星期"/>
+            <Item language="pl_PL" str="星期"/>
+            <Item language="fi_FI" str="星期"/>
+            <Item language="in_ID" str="星期"/>
+            <Item language="el_GR" str="星期"/>
+            <Item language="ro_RO" str="星期"/>
+            <Item language="cs_CZ" str="星期"/>
+            <Item language="uk_UA" str="星期"/>
+            <Item language="sk_SK" str="星期"/>
+            <Item language="hu_HU" str="星期"/>
+            <Item language="ar_EG" str="星期"/>
+            <Item language="iw_IL" str="星期"/>
+            <Item language="zh_HK" str="星期"/>
+        </Translation>
+        <Translation name="Translation35">
+            <Item language="zh_CN" str="恢复时间|跑力指数"/>
+            <Item language="en_US" str="恢复时间|跑力指数"/>
+            <Item language="zh_TW" str="恢复时间|跑力指数"/>
+            <Item language="ja_JP" str="恢复时间|跑力指数"/>
+            <Item language="es_ES" str="恢复时间|跑力指数"/>
+            <Item language="fr_FR" str="恢复时间|跑力指数"/>
+            <Item language="de_DE" str="恢复时间|跑力指数"/>
+            <Item language="ru_RU" str="恢复时间|跑力指数"/>
+            <Item language="pt_BR" str="恢复时间|跑力指数"/>
+            <Item language="pt_PT" str="恢复时间|跑力指数"/>
+            <Item language="it_IT" str="恢复时间|跑力指数"/>
+            <Item language="ko_KR" str="恢复时间|跑力指数"/>
+            <Item language="tr_TR" str="恢复时间|跑力指数"/>
+            <Item language="nl_NL" str="恢复时间|跑力指数"/>
+            <Item language="th_TH" str="恢复时间|跑力指数"/>
+            <Item language="sv_SE" str="恢复时间|跑力指数"/>
+            <Item language="da_DK" str="恢复时间|跑力指数"/>
+            <Item language="vi_VN" str="恢复时间|跑力指数"/>
+            <Item language="nb_NO" str="恢复时间|跑力指数"/>
+            <Item language="pl_PL" str="恢复时间|跑力指数"/>
+            <Item language="fi_FI" str="恢复时间|跑力指数"/>
+            <Item language="in_ID" str="恢复时间|跑力指数"/>
+            <Item language="el_GR" str="恢复时间|跑力指数"/>
+            <Item language="ro_RO" str="恢复时间|跑力指数"/>
+            <Item language="cs_CZ" str="恢复时间|跑力指数"/>
+            <Item language="uk_UA" str="恢复时间|跑力指数"/>
+            <Item language="sk_SK" str="恢复时间|跑力指数"/>
+            <Item language="hu_HU" str="恢复时间|跑力指数"/>
+            <Item language="ar_EG" str="恢复时间|跑力指数"/>
+            <Item language="iw_IL" str="恢复时间|跑力指数"/>
+            <Item language="zh_HK" str="恢复时间|跑力指数"/>
+        </Translation>
+        <Translation name="Translation36">
+            <Item language="zh_CN" str="中高强度锻炼时长"/>
+            <Item language="en_US" str="中高强度锻炼时长"/>
+            <Item language="zh_TW" str="中高强度锻炼时长"/>
+            <Item language="ja_JP" str="中高强度锻炼时长"/>
+            <Item language="es_ES" str="中高强度锻炼时长"/>
+            <Item language="fr_FR" str="中高强度锻炼时长"/>
+            <Item language="de_DE" str="中高强度锻炼时长"/>
+            <Item language="ru_RU" str="中高强度锻炼时长"/>
+            <Item language="pt_BR" str="中高强度锻炼时长"/>
+            <Item language="pt_PT" str="中高强度锻炼时长"/>
+            <Item language="it_IT" str="中高强度锻炼时长"/>
+            <Item language="ko_KR" str="中高强度锻炼时长"/>
+            <Item language="tr_TR" str="中高强度锻炼时长"/>
+            <Item language="nl_NL" str="中高强度锻炼时长"/>
+            <Item language="th_TH" str="中高强度锻炼时长"/>
+            <Item language="sv_SE" str="中高强度锻炼时长"/>
+            <Item language="da_DK" str="中高强度锻炼时长"/>
+            <Item language="vi_VN" str="中高强度锻炼时长"/>
+            <Item language="nb_NO" str="中高强度锻炼时长"/>
+            <Item language="pl_PL" str="中高强度锻炼时长"/>
+            <Item language="fi_FI" str="中高强度锻炼时长"/>
+            <Item language="in_ID" str="中高强度锻炼时长"/>
+            <Item language="el_GR" str="中高强度锻炼时长"/>
+            <Item language="ro_RO" str="中高强度锻炼时长"/>
+            <Item language="cs_CZ" str="中高强度锻炼时长"/>
+            <Item language="uk_UA" str="中高强度锻炼时长"/>
+            <Item language="sk_SK" str="中高强度锻炼时长"/>
+            <Item language="hu_HU" str="中高强度锻炼时长"/>
+            <Item language="ar_EG" str="中高强度锻炼时长"/>
+            <Item language="iw_IL" str="中高强度锻炼时长"/>
+            <Item language="zh_HK" str="中高强度锻炼时长"/>
+        </Translation>
+        <Translation name="Translation37">
+            <Item language="zh_CN" str="空气质量"/>
+            <Item language="en_US" str="空气质量"/>
+            <Item language="zh_TW" str="空气质量"/>
+            <Item language="ja_JP" str="空气质量"/>
+            <Item language="es_ES" str="空气质量"/>
+            <Item language="fr_FR" str="空气质量"/>
+            <Item language="de_DE" str="空气质量"/>
+            <Item language="ru_RU" str="空气质量"/>
+            <Item language="pt_BR" str="空气质量"/>
+            <Item language="pt_PT" str="空气质量"/>
+            <Item language="it_IT" str="空气质量"/>
+            <Item language="ko_KR" str="空气质量"/>
+            <Item language="tr_TR" str="空气质量"/>
+            <Item language="nl_NL" str="空气质量"/>
+            <Item language="th_TH" str="空气质量"/>
+            <Item language="sv_SE" str="空气质量"/>
+            <Item language="da_DK" str="空气质量"/>
+            <Item language="vi_VN" str="空气质量"/>
+            <Item language="nb_NO" str="空气质量"/>
+            <Item language="pl_PL" str="空气质量"/>
+            <Item language="fi_FI" str="空气质量"/>
+            <Item language="in_ID" str="空气质量"/>
+            <Item language="el_GR" str="空气质量"/>
+            <Item language="ro_RO" str="空气质量"/>
+            <Item language="cs_CZ" str="空气质量"/>
+            <Item language="uk_UA" str="空气质量"/>
+            <Item language="sk_SK" str="空气质量"/>
+            <Item language="hu_HU" str="空气质量"/>
+            <Item language="ar_EG" str="空气质量"/>
+            <Item language="iw_IL" str="空气质量"/>
+            <Item language="zh_HK" str="空气质量"/>
+        </Translation>
+        <Translation name="Translation38">
+            <Item language="zh_CN" str="步数距离"/>
+            <Item language="en_US" str="步数距离"/>
+            <Item language="zh_TW" str="步数距离"/>
+            <Item language="ja_JP" str="步数距离"/>
+            <Item language="es_ES" str="步数距离"/>
+            <Item language="fr_FR" str="步数距离"/>
+            <Item language="de_DE" str="步数距离"/>
+            <Item language="ru_RU" str="步数距离"/>
+            <Item language="pt_BR" str="步数距离"/>
+            <Item language="pt_PT" str="步数距离"/>
+            <Item language="it_IT" str="步数距离"/>
+            <Item language="ko_KR" str="步数距离"/>
+            <Item language="tr_TR" str="步数距离"/>
+            <Item language="nl_NL" str="步数距离"/>
+            <Item language="th_TH" str="步数距离"/>
+            <Item language="sv_SE" str="步数距离"/>
+            <Item language="da_DK" str="步数距离"/>
+            <Item language="vi_VN" str="步数距离"/>
+            <Item language="nb_NO" str="步数距离"/>
+            <Item language="pl_PL" str="步数距离"/>
+            <Item language="fi_FI" str="步数距离"/>
+            <Item language="in_ID" str="步数距离"/>
+            <Item language="el_GR" str="步数距离"/>
+            <Item language="ro_RO" str="步数距离"/>
+            <Item language="cs_CZ" str="步数距离"/>
+            <Item language="uk_UA" str="步数距离"/>
+            <Item language="sk_SK" str="步数距离"/>
+            <Item language="hu_HU" str="步数距离"/>
+            <Item language="ar_EG" str="步数距离"/>
+            <Item language="iw_IL" str="步数距离"/>
+            <Item language="zh_HK" str="步数距离"/>
+        </Translation>
         <Image name="Image1" src="_preview/动态new亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
-        <Image name="Image2" src="_preview/动态默认亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
-        <Image name="Image3" src="_preview/静态亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image2" src="_widget/3b159e5.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image3" src="_widget/15d0d25.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image4" src="_emptyImage.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image5" src="_preview/动态默认亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image6" src="_preview/静态亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
         <File fileName="_lua/mars3/smash.lua" name="_lua/mars3/smash.lua" preview=""/>
         <File fileName="_lua/mars3/Mars_0.rle" name="_lua/mars3/Mars_0.rle"/>
         <File fileName="_lua/mars3/Mars_1.rle" name="_lua/mars3/Mars_1.rle"/>
@@ -52,17 +1309,532 @@
         <File fileName="_lua/mars3/Mars_7.rle" name="_lua/mars3/Mars_7.rle"/>
         <File fileName="_lua/mars3/Mars_8.rle" name="_lua/mars3/Mars_8.rle"/>
         <File fileName="_lua/mars3/Mars_9.rle" name="_lua/mars3/Mars_9.rle"/>
-        <DataItemText name="Text1" w="109" h="44" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%d/%02d">
+        <DataItemText name="Text1" w="192" h="40" rotation="0" fontId="misansf" fontSize="28" fontWeight="semibold" color="#ffffff" style="normal" align="center" letterSpace="0" string="%d | %d">
+            <Content source="healthMiscRecoveryTime"/>
+            <Content source="healthMiscRunPowerIndex"/>
+        </DataItemText>
+        <Widget name="Widget1" widgetName="@Translation1" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text1" x="3" y="32"/>
+        </Widget>
+        <DataItemText name="Text2" w="192" h="40" rotation="0" fontId="misansf" fontSize="31" fontWeight="semibold" color="#ffffff" style="normal" align="center" letterSpace="0" string="%d:%02d">
+            <Content source="dualtimeHour"/>
+            <Content source="dualtimeMinute"/>
+        </DataItemText>
+        <Widget name="Widget2" widgetName="@Translation2" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text2" x="3" y="40"/>
+        </Widget>
+        <DataItemText name="Text3" w="192" h="40" rotation="0" fontId="misans" fontSize="24" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="0" string="%s·%s">
+            <Content source="dateLunarStringMonth"/>
+            <Content source="dateLunarStringDay"/>
+        </DataItemText>
+        <Widget name="Widget3" widgetName="@Translation3" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text3" x="8" y="23"/>
+        </Widget>
+        <DataItemText name="Text4" w="192" h="40" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="0" string="%d分钟">
+            <Content source="healthExerciseDuration"/>
+        </DataItemText>
+        <Widget name="Widget4" widgetName="@Translation4" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text4" x="6" y="40"/>
+        </Widget>
+        <DataItemText name="Text5" w="192" h="40" rotation="0" fontId="misans" fontSize="27" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="-1" string="%d:%02d|%d:%02d">
+            <Content source="weatherCurrentSunRiseHour"/>
+            <Content source="weatherCurrentSunRiseMinute"/>
+            <Content source="weatherCurrentSunSetHour"/>
+            <Content source="weatherCurrentSunSetMinute"/>
+        </DataItemText>
+        <Widget name="Widget5" widgetName="@Translation5" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text5" x="16" y="20"/>
+        </Widget>
+        <DataItemText name="Text6" w="192" h="40" rotation="0" fontId="misans" fontSize="22" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="0" string="%d~%dbpm">
+            <Content source="healthHeartRateMax"/>
+            <Content source="healthHeartRateMin"/>
+        </DataItemText>
+        <Widget name="Widget6" widgetName="@Translation6" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text6" x="10" y="27"/>
+        </Widget>
+        <DataItemText name="Text7" w="192" h="40" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="0" string="%d:%02d">
+            <Content source="appAlarmHour"/>
+            <Content source="appAlarmMinute"/>
+        </DataItemText>
+        <Widget name="Widget7" widgetName="@Translation7" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text7" x="9" y="35"/>
+        </Widget>
+        <DataItemText name="Text8" w="192" h="40" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="-1" string="%s">
+            <Content source="dateWeekStringFullPascalEN"/>
+        </DataItemText>
+        <Widget name="Widget8" widgetName="@Translation8" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text8" x="8" y="21"/>
+        </Widget>
+        <DataItemText name="Text9" w="192" h="40" rotation="0" fontId="misans" fontSize="28" fontWeight="regular" color="#ffffff" style="normal" align="center" letterSpace="-1" string="%d°~ %d°">
+            <Content source="weatherTodayTemperatureMin"/>
+            <Content source="weatherTodayTemperatureMax"/>
+        </DataItemText>
+        <Widget name="Widget9" widgetName="@Translation9" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text9" x="8" y="35"/>
+        </Widget>
+        <DataItemText name="Text10" w="192" h="40" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="-1" string="%d bpm">
+            <Content source="healthHeartRate"/>
+        </DataItemText>
+        <Widget name="Widget10" widgetName="@Translation10" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text10" x="6" y="39"/>
+        </Widget>
+        <DataItemText name="Text11" w="192" h="40" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="0" string="%d%%">
+            <Content source="weatherCurrentHumidity"/>
+        </DataItemText>
+        <Widget name="Widget11" widgetName="@Translation11" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text11" x="6" y="40"/>
+        </Widget>
+        <DataItemText name="Text12" w="192" h="40" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="0" string="%d%%">
+            <Content source="systemStatusBattery"/>
+        </DataItemText>
+        <Widget name="Widget12" widgetName="@Translation12" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text12" x="6" y="40"/>
+        </Widget>
+        <DataItemText name="Text13" w="192" h="40" rotation="0" fontId="misans" fontSize="25" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="-1" string="%d千卡">
+            <Content source="healthCalorieValue"/>
+        </DataItemText>
+        <Widget name="Widget13" widgetName="@Translation13" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text13" x="4" y="37"/>
+        </Widget>
+        <DataItemText name="Text14" w="192" h="40" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="center" letterSpace="-1" string="%d步">
+            <Content source="healthStepCount"/>
+        </DataItemText>
+        <Widget name="Widget14" widgetName="@Translation14" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text14" x="4" y="42"/>
+        </Widget>
+        <Widget name="Widget15" widgetName="无" groupType="none" w="184" h="184" editBox="@Image2" preview="@Image4">
+            <Item x="0" y="0" ref="@Image4"/>
+        </Widget>
+        <Slot name="Slot1" type="widget">
+            <Item ref="@Widget14"/>
+            <Item ref="@Widget15"/>
+            <Item ref="@Widget13"/>
+            <Item ref="@Widget12"/>
+            <Item ref="@Widget11"/>
+            <Item ref="@Widget10"/>
+            <Item ref="@Widget9"/>
+            <Item ref="@Widget8"/>
+            <Item ref="@Widget7"/>
+            <Item ref="@Widget6"/>
+            <Item ref="@Widget5"/>
+            <Item ref="@Widget4"/>
+            <Item ref="@Widget3"/>
+            <Item ref="@Widget2"/>
+            <Item ref="@Widget1"/>
+        </Slot>
+        <DataItemText name="Text15" w="89" h="37" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%dh">
+            <Content source="healthMiscRecoveryTime"/>
+        </DataItemText>
+        <Widget name="Widget16" widgetName="@Translation15" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text15" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text16" w="89" h="37" rotation="0" fontId="misans" fontSize="27" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d次">
+            <Content source="healthStandCount"/>
+        </DataItemText>
+        <Widget name="Widget17" widgetName="@Translation16" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text16" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text17" w="89" h="37" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d:%02d">
+            <Content source="weatherCurrentSunSetHour"/>
+            <Content source="weatherCurrentSunSetMinute"/>
+        </DataItemText>
+        <Widget name="Widget18" widgetName="@Translation17" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text17" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text18" w="89" h="37" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d:%02d">
+            <Content source="weatherCurrentSunRiseHour"/>
+            <Content source="weatherCurrentSunRiseMinute"/>
+        </DataItemText>
+        <Widget name="Widget19" widgetName="@Translation18" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text18" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text19" w="89" h="37" rotation="0" fontId="misans" fontSize="25" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%s">
+            <Content source="dualtimeStringCity"/>
+        </DataItemText>
+        <Widget name="Widget20" widgetName="@Translation19" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text19" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text20" w="89" h="37" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="healthStepProgress"/>
+        </DataItemText>
+        <Widget name="Widget21" widgetName="@Translation20" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text20" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text21" w="89" h="37" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="healthCalorieProgress"/>
+        </DataItemText>
+        <Widget name="Widget22" widgetName="@Translation21" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text21" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text22" w="89" h="37" rotation="0" fontId="misans" fontSize="25" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%dm">
+            <Content source="weatherCurrentVisibility"/>
+        </DataItemText>
+        <Widget name="Widget23" widgetName="@Translation22" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text22" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text23" w="89" h="37" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="weatherCurrentChanceOfRain"/>
+        </DataItemText>
+        <Widget name="Widget24" widgetName="@Translation23" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text23" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text24" w="89" h="37" rotation="0" fontId="misans" fontSize="28" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%s">
+            <Content source="dateWeekStringShortPascalEN"/>
+        </DataItemText>
+        <Widget name="Widget25" widgetName="@Translation8" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text24" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text25" w="89" h="37" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="weatherCurrentHumidity"/>
+        </DataItemText>
+        <Widget name="Widget26" widgetName="@Translation11" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text25" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text26" w="89" h="37" rotation="0" fontId="misans" fontSize="29" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d°">
+            <Content source="weatherCurrentTemperature"/>
+        </DataItemText>
+        <Widget name="Widget27" widgetName="@Translation24" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text26" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text27" w="89" h="37" rotation="0" fontId="misans" fontSize="25" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d:%02d">
+            <Content source="appAlarmHour"/>
+            <Content source="appAlarmMinute"/>
+        </DataItemText>
+        <Widget name="Widget28" widgetName="@Translation7" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text27" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text28" w="89" h="37" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%.1fh">
+            <Content source="healthSleepDuration"/>
+        </DataItemText>
+        <Widget name="Widget29" widgetName="@Translation25" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text28" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text29" w="89" h="37" rotation="0" fontId="misans" fontSize="26" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="healthOxygenSpO2"/>
+        </DataItemText>
+        <Widget name="Widget30" widgetName="@Translation26" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text29" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text30" w="89" h="37" rotation="0" fontId="misans" fontSize="25" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="systemStatusBattery"/>
+        </DataItemText>
+        <Widget name="Widget31" widgetName="@Translation12" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text30" x="12" y="0"/>
+        </Widget>
+        <DataItemText name="Text31" w="89" h="37" rotation="0" fontId="misans" fontSize="31" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%ds">
+            <Content source="timeSecond"/>
+        </DataItemText>
+        <Widget name="Widget32" widgetName="@Translation27" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text31" x="12" y="0"/>
+        </Widget>
+        <Widget name="Widget33" widgetName="无" groupType="none" w="89" h="37" editBox="@Image2" preview="@Image4">
+            <Item x="0" y="0" ref="@Image4"/>
+        </Widget>
+        <Slot name="Slot2" type="widget">
+            <Item ref="@Widget32"/>
+            <Item ref="@Widget33"/>
+            <Item ref="@Widget31"/>
+            <Item ref="@Widget30"/>
+            <Item ref="@Widget29"/>
+            <Item ref="@Widget28"/>
+            <Item ref="@Widget27"/>
+            <Item ref="@Widget26"/>
+            <Item ref="@Widget25"/>
+            <Item ref="@Widget24"/>
+            <Item ref="@Widget23"/>
+            <Item ref="@Widget22"/>
+            <Item ref="@Widget21"/>
+            <Item ref="@Widget20"/>
+            <Item ref="@Widget19"/>
+            <Item ref="@Widget18"/>
+            <Item ref="@Widget17"/>
+            <Item ref="@Widget16"/>
+        </Slot>
+        <DataItemText name="Text32" w="118" h="37" rotation="0" fontId="misans" fontSize="32" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%s">
+            <Content source="dualtimeStringCity"/>
+        </DataItemText>
+        <Widget name="Widget34" widgetName="@Translation19" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text32" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text33" w="118" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d:%02d">
+            <Content source="dualtimeHour"/>
+            <Content source="dualtimeMinute"/>
+        </DataItemText>
+        <Widget name="Widget35" widgetName="@Translation2" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text33" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text34" w="118" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d:%02d">
+            <Content source="weatherCurrentSunRiseHour"/>
+            <Content source="weatherCurrentSunRiseMinute"/>
+        </DataItemText>
+        <Widget name="Widget36" widgetName="@Translation18" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text34" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text35" w="118" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d:%02d">
+            <Content source="weatherCurrentSunSetHour"/>
+            <Content source="weatherCurrentSunSetMinute"/>
+        </DataItemText>
+        <Widget name="Widget37" widgetName="@Translation17" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text35" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text36" w="89" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d">
+            <Content source="dateYear"/>
+        </DataItemText>
+        <Widget name="Widget38" widgetName="@Translation28" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text36" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text37" w="101" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="healthCalorieProgress"/>
+        </DataItemText>
+        <Widget name="Widget39" widgetName="@Translation21" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text37" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text38" w="118" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d">
+            <Content source="weatherCurrentVisibility"/>
+        </DataItemText>
+        <Widget name="Widget40" widgetName="@Translation22" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text38" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text39" w="110" h="37" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%d分">
+            <Content source="healthExerciseDuration"/>
+        </DataItemText>
+        <Widget name="Widget41" widgetName="@Translation4" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text39" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text40" w="89" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="healthStepProgress"/>
+        </DataItemText>
+        <Widget name="Widget42" widgetName="@Translation20" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text40" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text41" w="104" h="38" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="weatherCurrentChanceOfRain"/>
+        </DataItemText>
+        <Widget name="Widget43" widgetName="@Translation29" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text41" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text42" w="89" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%dh">
+            <Content source="healthMiscRecoveryTime"/>
+        </DataItemText>
+        <Widget name="Widget44" widgetName="@Translation30" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text42" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text43" w="89" h="37" rotation="0" fontId="misans" fontSize="31" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%s">
+            <Content source="dateWeekStringShortUpperEN"/>
+        </DataItemText>
+        <Widget name="Widget45" widgetName="@Translation8" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text43" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text44" w="118" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%s">
+            <Content source="dateLunarStringYear"/>
+        </DataItemText>
+        <Widget name="Widget46" widgetName="@Translation31" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text44" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text45" w="118" h="37" rotation="0" fontId="misans" fontSize="31" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%.1fh">
+            <Content source="healthSleepDuration"/>
+        </DataItemText>
+        <Widget name="Widget47" widgetName="@Translation25" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text45" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text46" w="89" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%d°">
+            <Content source="weatherCurrentTemperature"/>
+        </DataItemText>
+        <Widget name="Widget48" widgetName="@Translation32" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text46" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text47" w="101" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="weatherCurrentHumidity"/>
+        </DataItemText>
+        <Widget name="Widget49" widgetName="@Translation11" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text47" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text48" w="114" h="37" rotation="0" fontId="misans" fontSize="28" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%d">
+            <Content source="healthStepCount"/>
+        </DataItemText>
+        <Widget name="Widget50" widgetName="@Translation14" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text48" x="12" y="27"/>
+        </Widget>
+        <DataItemText name="Text49" w="101" h="37" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%d次">
+            <Content source="healthHeartRate"/>
+        </DataItemText>
+        <Widget name="Widget51" widgetName="@Translation10" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text49" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text50" w="118" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%d%%">
+            <Content source="healthOxygenSpO2"/>
+        </DataItemText>
+        <Widget name="Widget52" widgetName="@Translation26" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text50" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text51" w="118" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d/%02d">
             <Content source="dateMonth"/>
             <Content source="dateDay"/>
         </DataItemText>
-        <DataItemText name="Text2" w="66" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%s">
+        <Widget name="Widget53" widgetName="@Translation33" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text51" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text52" w="101" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d%%">
+            <Content source="systemStatusBattery"/>
+        </DataItemText>
+        <Widget name="Widget54" widgetName="@Translation12" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text52" x="12" y="25"/>
+        </Widget>
+        <DataItemText name="Text53" w="66" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%s">
             <Content source="dateWeekStringShortCN"/>
         </DataItemText>
-        <DataItemText name="Text3" w="162" h="122" rotation="0" fontId="misansf" fontSize="111" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="0" string="%02d">
+        <Widget name="Widget55" widgetName="@Translation34" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text53" x="12" y="25"/>
+        </Widget>
+        <Widget name="Widget56" widgetName="无" groupType="none" w="66" h="37" editBox="@Image2" preview="@Image4">
+            <Item x="0" y="0" ref="@Image4"/>
+        </Widget>
+        <Slot name="Slot3" type="widget">
+            <Item ref="@Widget55"/>
+            <Item ref="@Widget56"/>
+            <Item ref="@Widget54"/>
+            <Item ref="@Widget53"/>
+            <Item ref="@Widget52"/>
+            <Item ref="@Widget51"/>
+            <Item ref="@Widget50"/>
+            <Item ref="@Widget49"/>
+            <Item ref="@Widget48"/>
+            <Item ref="@Widget47"/>
+            <Item ref="@Widget46"/>
+            <Item ref="@Widget45"/>
+            <Item ref="@Widget44"/>
+            <Item ref="@Widget43"/>
+            <Item ref="@Widget42"/>
+            <Item ref="@Widget41"/>
+            <Item ref="@Widget40"/>
+            <Item ref="@Widget39"/>
+            <Item ref="@Widget38"/>
+            <Item ref="@Widget37"/>
+            <Item ref="@Widget36"/>
+            <Item ref="@Widget35"/>
+            <Item ref="@Widget34"/>
+        </Slot>
+        <DataItemText name="Text54" w="224" h="45" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="2" string="%dh|%d">
+            <Content source="healthMiscRecoveryTime"/>
+            <Content source="healthMiscRunPowerIndex"/>
+        </DataItemText>
+        <Widget name="Widget57" widgetName="@Translation35" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text54" x="12" y="42"/>
+        </Widget>
+        <DataItemText name="Text55" w="224" h="45" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d分钟">
+            <Content source="healthExerciseDuration"/>
+        </DataItemText>
+        <Widget name="Widget58" widgetName="@Translation36" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text55" x="12" y="42"/>
+        </Widget>
+        <DataItemText name="Text56" w="140" h="44" rotation="0" fontId="misans" fontSize="33" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="4" string="%d">
+            <Content source="dateYear"/>
+        </DataItemText>
+        <Widget name="Widget59" widgetName="@Translation28" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text56" x="12" y="40"/>
+        </Widget>
+        <DataItemText name="Text57" w="224" h="45" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d~%d">
+            <Content source="healthHeartRateMin"/>
+            <Content source="healthHeartRateMax"/>
+        </DataItemText>
+        <Widget name="Widget60" widgetName="@Translation6" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text57" x="12" y="42"/>
+        </Widget>
+        <DataItemText name="Text58" w="140" h="44" rotation="0" fontId="misans" fontSize="33" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="2" string="%s">
+            <Content source="dualtimeStringCity"/>
+        </DataItemText>
+        <Widget name="Widget61" widgetName="@Translation19" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text58" x="12" y="40"/>
+        </Widget>
+        <DataItemText name="Text59" w="140" h="44" rotation="0" fontId="misans" fontSize="33" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="4" string="%d:%02d">
+            <Content source="dualtimeHour"/>
+            <Content source="dualtimeMinute"/>
+        </DataItemText>
+        <Widget name="Widget62" widgetName="@Translation2" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text59" x="12" y="40"/>
+        </Widget>
+        <DataItemText name="Text60" w="224" h="45" rotation="0" fontId="misans" fontSize="32" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d AQI">
+            <Content source="weatherCurrentAirQualityIndex"/>
+        </DataItemText>
+        <Widget name="Widget63" widgetName="@Translation37" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text60" x="12" y="40"/>
+        </Widget>
+        <DataItemText name="Text61" w="224" h="45" rotation="0" fontId="misans" fontSize="32" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%.1fkm">
+            <Content source="healthStepKiloMeter"/>
+        </DataItemText>
+        <Widget name="Widget64" widgetName="@Translation38" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text61" x="12" y="41"/>
+        </Widget>
+        <DataItemText name="Text62" w="224" h="45" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d卡">
+            <Content source="healthCalorieValue"/>
+        </DataItemText>
+        <Widget name="Widget65" widgetName="@Translation13" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text62" x="12" y="42"/>
+        </Widget>
+        <DataItemText name="Text63" w="224" h="45" rotation="0" fontId="misans" fontSize="30" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%dbpm">
+            <Content source="healthHeartRate"/>
+        </DataItemText>
+        <Widget name="Widget66" widgetName="@Translation10" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text63" x="12" y="42"/>
+        </Widget>
+        <DataItemText name="Text64" w="224" h="45" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="1" string="%d">
+            <Content source="healthStepCount"/>
+        </DataItemText>
+        <Widget name="Widget67" widgetName="@Translation14" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text64" x="12" y="40"/>
+        </Widget>
+        <DataItemText name="Text65" w="224" h="45" rotation="0" fontId="misans" fontSize="32" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%d~%d°">
+            <Content source="weatherTodayTemperatureMin"/>
+            <Content source="weatherTodayTemperatureMax"/>
+        </DataItemText>
+        <Widget name="Widget68" widgetName="@Translation9" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text65" x="12" y="40"/>
+        </Widget>
+        <DataItemText name="Text66" w="140" h="44" rotation="0" fontId="misans" fontSize="33" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="2" string="%s">
+            <Content source="dateWeekStringFullCN"/>
+        </DataItemText>
+        <Widget name="Widget69" widgetName="@Translation34" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text66" x="12" y="40"/>
+        </Widget>
+        <DataItemText name="Text67" w="140" h="44" rotation="0" fontId="misans" fontSize="28" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="-1" string="%s%s">
+            <Content source="dateLunarStringMonth"/>
+            <Content source="dateLunarStringDay"/>
+        </DataItemText>
+        <Widget name="Widget70" widgetName="@Translation3" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text67" x="12" y="44"/>
+        </Widget>
+        <DataItemText name="Text68" w="158" h="45" rotation="0" fontId="misans" fontSize="34" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%02d/%02d">
+            <Content source="dateMonth"/>
+            <Content source="dateDay"/>
+        </DataItemText>
+        <Widget name="Widget71" widgetName="@Translation33" groupType="general" editBox="@Image2" preview="@Image3">
+            <Item ref="@Text68" x="12" y="40"/>
+        </Widget>
+        <Widget name="Widget72" widgetName="无" groupType="none" w="109" h="44" editBox="@Image2" preview="@Image4">
+            <Item x="0" y="0" ref="@Image4"/>
+        </Widget>
+        <Slot name="Slot4" type="widget">
+            <Item ref="@Widget71"/>
+            <Item ref="@Widget72"/>
+            <Item ref="@Widget70"/>
+            <Item ref="@Widget69"/>
+            <Item ref="@Widget68"/>
+            <Item ref="@Widget67"/>
+            <Item ref="@Widget66"/>
+            <Item ref="@Widget65"/>
+            <Item ref="@Widget64"/>
+            <Item ref="@Widget63"/>
+            <Item ref="@Widget62"/>
+            <Item ref="@Widget61"/>
+            <Item ref="@Widget60"/>
+            <Item ref="@Widget59"/>
+            <Item ref="@Widget58"/>
+            <Item ref="@Widget57"/>
+        </Slot>
+        <DataItemText name="Text69" w="162" h="122" rotation="0" fontId="misansf" fontSize="111" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="0" string="%02d">
             <Content source="timeMinute"/>
         </DataItemText>
-        <DataItemText name="Text4" w="162" h="122" rotation="0" fontId="misansf" fontSize="111" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="0" string="%02d">
+        <DataItemText name="Text70" w="162" h="122" rotation="0" fontId="misansf" fontSize="111" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="0" string="%02d">
             <Content source="timeHour"/>
         </DataItemText>
         <File fileName="_lua/SmoothlyLighttop/SmoothlyLight.lua" name="_lua/SmoothlyLighttop/SmoothlyLight.lua"/>
@@ -72,47 +1844,53 @@
     </Resources>
     <Theme type="normal" name="动态new" bgColor="#000000" isPhotoAlbumWatchface="false" preview="@Image1">
         <Layout ref="@_lua/mars3/smash.lua" x="0" y="0"/>
-        <Layout ref="@Text1" x="12" y="236"/>
-        <Layout ref="@Text2" x="12" y="275"/>
-        <Layout ref="@Text3" x="11" y="116"/>
-        <Layout ref="@Text4" x="11" y="16"/>
+        <Layout ref="@Slot1" x="0" y="400"/>
+        <Layout ref="@Slot2" x="0" y="314"/>
+        <Layout ref="@Slot3" x="0" y="250"/>
+        <Layout ref="@Slot4" x="0" y="196"/>
+        <Layout ref="@Text69" x="11" y="116"/>
+        <Layout ref="@Text70" x="11" y="16"/>
         <Layout ref="@_lua/SmoothlyLighttop/SmoothlyLight.lua" x="0" y="0"/>
     </Theme>
     <Theme type="AOD" name="动态new" bgColor="#000000" isPhotoAlbumWatchface="false">
         <Layout ref="@_lua/mars3/smash.lua" x="0" y="0"/>
-        <Layout ref="@Text1" x="12" y="236"/>
-        <Layout ref="@Text2" x="12" y="275"/>
-        <Layout ref="@Text3" x="11" y="116"/>
-        <Layout ref="@Text4" x="11" y="16"/>
+        <Layout ref="@Text53" x="12" y="275"/>
+        <Layout ref="@Text68" x="12" y="236"/>
+        <Layout ref="@Text69" x="11" y="116"/>
+        <Layout ref="@Text70" x="11" y="16"/>
     </Theme>
-    <Theme type="normal" name="动态默认" bgColor="#000000" isPhotoAlbumWatchface="false" preview="@Image2">
+    <Theme type="normal" name="动态默认" bgColor="#000000" isPhotoAlbumWatchface="false" preview="@Image5">
         <Layout ref="@_lua/mars3/smash.lua" x="0" y="0"/>
+        <Layout ref="@Slot1" x="0" y="400"/>
+        <Layout ref="@Slot2" x="0" y="314"/>
         <Layout ref="@_lua/SmoothlyLightmiddle/SmoothlyLight.lua" x="0" y="0"/>
-        <Layout ref="@Text1" x="12" y="236"/>
-        <Layout ref="@Text2" x="12" y="275"/>
-        <Layout ref="@Text3" x="11" y="116"/>
-        <Layout ref="@Text4" x="11" y="16"/>
+        <Layout ref="@Slot3" x="0" y="250"/>
+        <Layout ref="@Slot4" x="0" y="196"/>
+        <Layout ref="@Text69" x="11" y="116"/>
+        <Layout ref="@Text70" x="11" y="16"/>
         <Layout ref="@_lua/SmoothlyLighttop/SmoothlyLight.lua" x="0" y="0"/>
     </Theme>
     <Theme type="AOD" name="动态默认" bgColor="#000000" isPhotoAlbumWatchface="false">
-        <Layout ref="@Text1" x="12" y="236"/>
-        <Layout ref="@Text2" x="12" y="275"/>
-        <Layout ref="@Text3" x="11" y="116"/>
-        <Layout ref="@Text4" x="11" y="16"/>
+        <Layout ref="@Text53" x="12" y="275"/>
+        <Layout ref="@Text68" x="12" y="236"/>
+        <Layout ref="@Text69" x="11" y="116"/>
+        <Layout ref="@Text70" x="11" y="16"/>
     </Theme>
-    <Theme type="normal" name="静态" bgColor="#000000" isPhotoAlbumWatchface="false" preview="@Image3">
+    <Theme type="normal" name="静态" bgColor="#000000" isPhotoAlbumWatchface="false" preview="@Image6">
         <Layout ref="@_lua/mars4/smash.lua" x="0" y="0"/>
+        <Layout ref="@Slot1" x="0" y="400"/>
+        <Layout ref="@Slot2" x="0" y="314"/>
         <Layout ref="@_lua/SmoothlyLightmiddle/SmoothlyLight.lua" x="0" y="0"/>
-        <Layout ref="@Text1" x="12" y="236"/>
-        <Layout ref="@Text2" x="12" y="275"/>
-        <Layout ref="@Text3" x="11" y="116"/>
-        <Layout ref="@Text4" x="11" y="16"/>
+        <Layout ref="@Slot3" x="0" y="250"/>
+        <Layout ref="@Slot4" x="0" y="196"/>
+        <Layout ref="@Text69" x="11" y="116"/>
+        <Layout ref="@Text70" x="11" y="16"/>
         <Layout ref="@_lua/SmoothlyLighttop/SmoothlyLight.lua" x="0" y="0"/>
     </Theme>
     <Theme type="AOD" name="静态" bgColor="#000000" isPhotoAlbumWatchface="false">
-        <Layout ref="@Text1" x="12" y="236"/>
-        <Layout ref="@Text2" x="12" y="275"/>
-        <Layout ref="@Text3" x="11" y="116"/>
-        <Layout ref="@Text4" x="11" y="16"/>
+        <Layout ref="@Text53" x="12" y="275"/>
+        <Layout ref="@Text68" x="12" y="236"/>
+        <Layout ref="@Text69" x="11" y="116"/>
+        <Layout ref="@Text70" x="11" y="16"/>
     </Theme>
 </Watchface>

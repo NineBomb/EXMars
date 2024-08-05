@@ -14,7 +14,7 @@ M = l.Timer({
             i = 0
             M:pause()
         end
-    end,
+    end
 })
 function ScreenStateChangedCB(pre, now, reason)
         if pre ~= "ON" and now == "ON" then
@@ -25,5 +25,4 @@ function ScreenStateChangedCB(pre, now, reason)
             M:pause()
             C:set { src = SCRIPT_PATH .. "Mars_0.rle" }
         end
-
-end
+end 

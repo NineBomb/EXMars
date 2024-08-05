@@ -8,6 +8,7 @@ s = l.Object(nil, {
         border_width = 0,
         pad_all = 0
     })
+    s:add_flag(lvgl.FLAG.EVENT_BUBBLE)
 T = l.Timer({
     period = 17,
     cb = function(t)

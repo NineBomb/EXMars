@@ -3,13 +3,13 @@
 	<shape>run</shape>
 	<name>EX Mars</name>
 	<deviceType>N66</deviceType>
-	<version>2.0.0</version>
+	<version>3.0.0</version>
 	<size>192x490</size>
 	<author>小米</author>
 	<pkgName>100231002</pkgName>
 	<temperatureUnitType>celsius</temperatureUnitType>
 	<_id>8b374140d84fb3e6cc7074dabdf2870f</_id>
-	<imageFormat>alpha8</imageFormat>
+	<imageFormat>indexed8</imageFormat>
 	<imageCompression>true</imageCompression>
 	<editorVersion>2.1.2</editorVersion>
 	<webVersionCreatedAt>2024-07-24T14:32:41+08:00</webVersionCreatedAt>
