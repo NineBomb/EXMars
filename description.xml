@@ -5,11 +5,11 @@ Below is a rendering of the page up to the first error.</parsererror>
 	<shape>run</shape>
 	<name>EXMars</name>
 	<deviceType>N66</deviceType>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<size>192x490</size>
 	<author>NineBomb</author>
 	<pkgName>100231002</pkgName>
-	<imageFormat>alpha8</imageFormat>
+	<imageFormat>indexed8</imageFormat>
 	<imageCompression>true</imageCompression>
 	<editorVersion>2.1.2</editorVersion>
 	<webVersionUpdatedAt>2024-07-24T14:32:41+08:00</webVersionUpdatedAt>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Watchface name="EXMars" width="192" height="490" id="100231002" SKU="false" compressMethod="RLEReversed" editable="false">
+<Watchface name="EXMars" width="192" height="490" id="100231002" SKU="false" _deviceType="N66" compressMethod="RLEReversed" editable="true">
     <Resources>
-        <Image name="Image1" src="_preview/样式1亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image1" src="_preview/常规非AOD亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image2" src="_preview/静态非AOD亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image3" src="_preview/静态AOD亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image4" src="_preview/常规AOD亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
         <ImageArray name="ImageArray1" compressMethod="RLEReversed" format="indexed8">
             <Image src="AOD/0_31475ca.png"/>
             <Image src="AOD/1_eb1ee7f.png"/>
@@ -14,81 +17,125 @@
             <Image src="AOD/8_e01fb67.png"/>
             <Image src="AOD/9_31e2260.png"/>
         </ImageArray>
-        <File fileName="_lua/mars/smash.lua" name="_lua/mars/smash.lua" preview=""/>
-        <File fileName="_lua/mars/Mars_0.rle" name="_lua/mars/Mars_0.rle"/>
-        <File fileName="_lua/mars/Mars_1.rle" name="_lua/mars/Mars_1.rle"/>
-        <File fileName="_lua/mars/Mars_10.rle" name="_lua/mars/Mars_10.rle"/>
-        <File fileName="_lua/mars/Mars_11.rle" name="_lua/mars/Mars_11.rle"/>
-        <File fileName="_lua/mars/Mars_12.rle" name="_lua/mars/Mars_12.rle"/>
-        <File fileName="_lua/mars/Mars_13.rle" name="_lua/mars/Mars_13.rle"/>
-        <File fileName="_lua/mars/Mars_14.rle" name="_lua/mars/Mars_14.rle"/>
-        <File fileName="_lua/mars/Mars_15.rle" name="_lua/mars/Mars_15.rle"/>
-        <File fileName="_lua/mars/Mars_16.rle" name="_lua/mars/Mars_16.rle"/>
-        <File fileName="_lua/mars/Mars_17.rle" name="_lua/mars/Mars_17.rle"/>
-        <File fileName="_lua/mars/Mars_18.rle" name="_lua/mars/Mars_18.rle"/>
-        <File fileName="_lua/mars/Mars_19.rle" name="_lua/mars/Mars_19.rle"/>
-        <File fileName="_lua/mars/Mars_2.rle" name="_lua/mars/Mars_2.rle"/>
-        <File fileName="_lua/mars/Mars_20.rle" name="_lua/mars/Mars_20.rle"/>
-        <File fileName="_lua/mars/Mars_21.rle" name="_lua/mars/Mars_21.rle"/>
-        <File fileName="_lua/mars/Mars_22.rle" name="_lua/mars/Mars_22.rle"/>
-        <File fileName="_lua/mars/Mars_23.rle" name="_lua/mars/Mars_23.rle"/>
-        <File fileName="_lua/mars/Mars_24.rle" name="_lua/mars/Mars_24.rle"/>
-        <File fileName="_lua/mars/Mars_25.rle" name="_lua/mars/Mars_25.rle"/>
-        <File fileName="_lua/mars/Mars_26.rle" name="_lua/mars/Mars_26.rle"/>
-        <File fileName="_lua/mars/Mars_27.rle" name="_lua/mars/Mars_27.rle"/>
-        <File fileName="_lua/mars/Mars_28.rle" name="_lua/mars/Mars_28.rle"/>
-        <File fileName="_lua/mars/Mars_29.rle" name="_lua/mars/Mars_29.rle"/>
-        <File fileName="_lua/mars/Mars_3.rle" name="_lua/mars/Mars_3.rle"/>
-        <File fileName="_lua/mars/Mars_30.rle" name="_lua/mars/Mars_30.rle"/>
-        <File fileName="_lua/mars/Mars_31.rle" name="_lua/mars/Mars_31.rle"/>
-        <File fileName="_lua/mars/Mars_32.rle" name="_lua/mars/Mars_32.rle"/>
-        <File fileName="_lua/mars/Mars_33.rle" name="_lua/mars/Mars_33.rle"/>
-        <File fileName="_lua/mars/Mars_34.rle" name="_lua/mars/Mars_34.rle"/>
-        <File fileName="_lua/mars/Mars_35.rle" name="_lua/mars/Mars_35.rle"/>
-        <File fileName="_lua/mars/Mars_36.rle" name="_lua/mars/Mars_36.rle"/>
-        <File fileName="_lua/mars/Mars_37.rle" name="_lua/mars/Mars_37.rle"/>
-        <File fileName="_lua/mars/Mars_38.rle" name="_lua/mars/Mars_38.rle"/>
-        <File fileName="_lua/mars/Mars_39.rle" name="_lua/mars/Mars_39.rle"/>
-        <File fileName="_lua/mars/Mars_4.rle" name="_lua/mars/Mars_4.rle"/>
-        <File fileName="_lua/mars/Mars_40.rle" name="_lua/mars/Mars_40.rle"/>
-        <File fileName="_lua/mars/Mars_41.rle" name="_lua/mars/Mars_41.rle"/>
-        <File fileName="_lua/mars/Mars_42.rle" name="_lua/mars/Mars_42.rle"/>
-        <File fileName="_lua/mars/Mars_43.rle" name="_lua/mars/Mars_43.rle"/>
-        <File fileName="_lua/mars/Mars_44.rle" name="_lua/mars/Mars_44.rle"/>
-        <File fileName="_lua/mars/Mars_45.rle" name="_lua/mars/Mars_45.rle"/>
-        <File fileName="_lua/mars/Mars_46.rle" name="_lua/mars/Mars_46.rle"/>
-        <File fileName="_lua/mars/Mars_5.rle" name="_lua/mars/Mars_5.rle"/>
-        <File fileName="_lua/mars/Mars_6.rle" name="_lua/mars/Mars_6.rle"/>
-        <File fileName="_lua/mars/Mars_7.rle" name="_lua/mars/Mars_7.rle"/>
-        <File fileName="_lua/mars/Mars_8.rle" name="_lua/mars/Mars_8.rle"/>
-        <File fileName="_lua/mars/Mars_9.rle" name="_lua/mars/Mars_9.rle"/>
-        <DataItemText name="Text1" w="158" h="122" rotation="0" fontId="misansf" fontSize="111" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="-0.5" string="%02d">
-            <Content source="timeHour"/>
-        </DataItemText>
-        <DataItemText name="Text2" w="162" h="122" rotation="0" fontId="misansf" fontSize="111" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="-0.5" string="%02d">
-            <Content source="timeMinute"/>
-        </DataItemText>
-        <DataItemText name="Text3" w="109" h="44" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%02d/%02d">
+        <File fileName="_lua/mars3/smash.lua" name="_lua/mars3/smash.lua" preview=""/>
+        <File fileName="_lua/mars3/Mars_0.rle" name="_lua/mars3/Mars_0.rle"/>
+        <File fileName="_lua/mars3/Mars_1.rle" name="_lua/mars3/Mars_1.rle"/>
+        <File fileName="_lua/mars3/Mars_10.rle" name="_lua/mars3/Mars_10.rle"/>
+        <File fileName="_lua/mars3/Mars_11.rle" name="_lua/mars3/Mars_11.rle"/>
+        <File fileName="_lua/mars3/Mars_12.rle" name="_lua/mars3/Mars_12.rle"/>
+        <File fileName="_lua/mars3/Mars_13.rle" name="_lua/mars3/Mars_13.rle"/>
+        <File fileName="_lua/mars3/Mars_14.rle" name="_lua/mars3/Mars_14.rle"/>
+        <File fileName="_lua/mars3/Mars_15.rle" name="_lua/mars3/Mars_15.rle"/>
+        <File fileName="_lua/mars3/Mars_16.rle" name="_lua/mars3/Mars_16.rle"/>
+        <File fileName="_lua/mars3/Mars_17.rle" name="_lua/mars3/Mars_17.rle"/>
+        <File fileName="_lua/mars3/Mars_18.rle" name="_lua/mars3/Mars_18.rle"/>
+        <File fileName="_lua/mars3/Mars_19.rle" name="_lua/mars3/Mars_19.rle"/>
+        <File fileName="_lua/mars3/Mars_2.rle" name="_lua/mars3/Mars_2.rle"/>
+        <File fileName="_lua/mars3/Mars_20.rle" name="_lua/mars3/Mars_20.rle"/>
+        <File fileName="_lua/mars3/Mars_21.rle" name="_lua/mars3/Mars_21.rle"/>
+        <File fileName="_lua/mars3/Mars_22.rle" name="_lua/mars3/Mars_22.rle"/>
+        <File fileName="_lua/mars3/Mars_23.rle" name="_lua/mars3/Mars_23.rle"/>
+        <File fileName="_lua/mars3/Mars_24.rle" name="_lua/mars3/Mars_24.rle"/>
+        <File fileName="_lua/mars3/Mars_25.rle" name="_lua/mars3/Mars_25.rle"/>
+        <File fileName="_lua/mars3/Mars_26.rle" name="_lua/mars3/Mars_26.rle"/>
+        <File fileName="_lua/mars3/Mars_27.rle" name="_lua/mars3/Mars_27.rle"/>
+        <File fileName="_lua/mars3/Mars_28.rle" name="_lua/mars3/Mars_28.rle"/>
+        <File fileName="_lua/mars3/Mars_29.rle" name="_lua/mars3/Mars_29.rle"/>
+        <File fileName="_lua/mars3/Mars_3.rle" name="_lua/mars3/Mars_3.rle"/>
+        <File fileName="_lua/mars3/Mars_30.rle" name="_lua/mars3/Mars_30.rle"/>
+        <File fileName="_lua/mars3/Mars_31.rle" name="_lua/mars3/Mars_31.rle"/>
+        <File fileName="_lua/mars3/Mars_32.rle" name="_lua/mars3/Mars_32.rle"/>
+        <File fileName="_lua/mars3/Mars_33.rle" name="_lua/mars3/Mars_33.rle"/>
+        <File fileName="_lua/mars3/Mars_34.rle" name="_lua/mars3/Mars_34.rle"/>
+        <File fileName="_lua/mars3/Mars_35.rle" name="_lua/mars3/Mars_35.rle"/>
+        <File fileName="_lua/mars3/Mars_36.rle" name="_lua/mars3/Mars_36.rle"/>
+        <File fileName="_lua/mars3/Mars_37.rle" name="_lua/mars3/Mars_37.rle"/>
+        <File fileName="_lua/mars3/Mars_38.rle" name="_lua/mars3/Mars_38.rle"/>
+        <File fileName="_lua/mars3/Mars_39.rle" name="_lua/mars3/Mars_39.rle"/>
+        <File fileName="_lua/mars3/Mars_4.rle" name="_lua/mars3/Mars_4.rle"/>
+        <File fileName="_lua/mars3/Mars_40.rle" name="_lua/mars3/Mars_40.rle"/>
+        <File fileName="_lua/mars3/Mars_41.rle" name="_lua/mars3/Mars_41.rle"/>
+        <File fileName="_lua/mars3/Mars_42.rle" name="_lua/mars3/Mars_42.rle"/>
+        <File fileName="_lua/mars3/Mars_43.rle" name="_lua/mars3/Mars_43.rle"/>
+        <File fileName="_lua/mars3/Mars_44.rle" name="_lua/mars3/Mars_44.rle"/>
+        <File fileName="_lua/mars3/Mars_45.rle" name="_lua/mars3/Mars_45.rle"/>
+        <File fileName="_lua/mars3/Mars_46.rle" name="_lua/mars3/Mars_46.rle"/>
+        <File fileName="_lua/mars3/Mars_5.rle" name="_lua/mars3/Mars_5.rle"/>
+        <File fileName="_lua/mars3/Mars_6.rle" name="_lua/mars3/Mars_6.rle"/>
+        <File fileName="_lua/mars3/Mars_7.rle" name="_lua/mars3/Mars_7.rle"/>
+        <File fileName="_lua/mars3/Mars_8.rle" name="_lua/mars3/Mars_8.rle"/>
+        <File fileName="_lua/mars3/Mars_9.rle" name="_lua/mars3/Mars_9.rle"/>
+        <DataItemText name="Text1" w="109" h="44" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%02d/%02d" _string="#ffffff %02d/%02d#">
             <Content source="dateMonth"/>
             <Content source="dateDay"/>
         </DataItemText>
-        <DataItemText name="Text4" w="66" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%s">
+        <DataItemText name="Text2" w="66" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="medium" color="#ffffff" style="normal" align="left" letterSpace="0" string="%s" _string="#ffffff %s#">
             <Content source="dateWeekStringShortCN"/>
         </DataItemText>
-        <DataItemImageNumber name="ImageNumber1" source="timeHour" ref="@ImageArray1" rotation="0" supportRecolor="false" unitIcon="" leadingZero="true" decimalOffsetX="0" totalDigits="2" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="left" space="0"/>
-        <DataItemImageNumber name="ImageNumber2" source="timeMinute" ref="@ImageArray1" rotation="0" supportRecolor="false" unitIcon="" leadingZero="true" decimalOffsetX="0" totalDigits="2" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="left" space="0"/>
+        <DataItemText name="Text3" w="158" h="122" rotation="0" fontId="misansf" fontSize="111" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="-0.5" string="%02d" _string="#ffffff %02d#">
+            <Content source="timeHour"/>
+        </DataItemText>
+        <DataItemText name="Text4" w="162" h="122" rotation="0" fontId="misansf" fontSize="111" fontWeight="semibold" color="#ffffff" style="normal" align="left" letterSpace="-0.5" string="%02d" _string="#ffffff %02d#">
+            <Content source="timeMinute"/>
+        </DataItemText>
+        <File fileName="_lua/SmoothlyLight/SmoothlyLight.lua" name="_lua/SmoothlyLight/SmoothlyLight.lua"/>
+        <File fileName="_lua/mars4/smash.lua" name="_lua/mars4/smash.lua" preview=""/>
+        <File fileName="_lua/mars4/smash.lua" name="_lua/mars4/smash.lua" preview=""/>
+        <DataItemText name="Text5" w="109" h="44" rotation="0" fontId="misans" fontSize="33" fontWeight="demibold" color="#ffffff" style="normal" align="left" letterSpace="0" string="%02d/%02d" _string="#ffffff %02d/%02d#">
+            <Content source="dateMonth"/>
+            <Content source="dateDay"/>
+        </DataItemText>
+        <DataItemText name="Text6" w="66" h="37" rotation="0" fontId="misans" fontSize="33" fontWeight="demibold" color="#ffffff" style="normal" align="left" letterSpace="0" string="%s" _string="#ffffff %s#">
+            <Content source="dateWeekStringShortCN"/>
+        </DataItemText>
+        <DataItemImageNumber name="ImageNumber1" source="timeMinute" ref="@ImageArray1" rotation="0" supportRecolor="false" unitIcon="" leadingZero="true" decimalOffsetX="0" totalDigits="2" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="left" space="0"/>
+        <DataItemImageNumber name="ImageNumber2" source="timeHour" ref="@ImageArray1" rotation="0" supportRecolor="false" unitIcon="" leadingZero="true" decimalOffsetX="0" totalDigits="2" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="left" space="0"/>
+        <File fileName="_lua/mars3/smash.lua" name="_lua/mars3/smash.lua" preview=""/>
     </Resources>
-    <Theme type="normal" name="样式1" bgColor="#000000" isPhotoAlbumWatchface="false" preview="@Image1">
-        <Layout ref="@_lua/mars/smash.lua" x="0" y="0"/>
-        <Layout ref="@Text1" x="11" y="16"/>
-        <Layout ref="@Text2" x="11" y="116"/>
-        <Layout ref="@Text3" x="12" y="236"/>
-        <Layout ref="@Text4" x="12" y="275"/>
+    <Theme type="normal" name="常规非AOD" bgColor="#000000" isPhotoAlbumWatchface="false" _id="gkakdm" preview="@Image1">
+        <Layout ref="@_lua/mars3/smash.lua" x="0" y="0" _id="vbgitr" _name="JS/LUA程序1"/>
+        <Layout ref="@Text1" x="12" y="236" _id="tlmqvt" _name="文本2"/>
+        <Layout ref="@Text2" x="12" y="275" _id="wzfvg8" _name="文本3"/>
+        <Layout ref="@Text3" x="11" y="16" _id="d0s8i6" _name="文本1"/>
+        <Layout ref="@Text4" x="11" y="116" _id="g5w1av" _name="文本1"/>
+        <Layout ref="@_lua/SmoothlyLight/SmoothlyLight.lua" x="0" y="0" _id="tratnc" _name="JS/LUA程序2"/>
     </Theme>
-    <Theme type="AOD" name="样式1" bgColor="#000000" isPhotoAlbumWatchface="false">
-        <Layout ref="@ImageNumber1" x="12" y="27"/>
-        <Layout ref="@ImageNumber2" x="12" y="126"/>
-        <Layout ref="@Text3" x="12" y="236"/>
-        <Layout ref="@Text4" x="12" y="275"/>
+    <Theme type="AOD" name="常规非AOD" bgColor="#000000" isPhotoAlbumWatchface="false" _id="nlfx6f"/>
+    <Theme type="normal" name="静态非AOD" bgColor="#000000" isPhotoAlbumWatchface="false" _id="mfhhl1" preview="@Image2">
+        <Layout ref="@_lua/mars4/smash.lua" x="0" y="0" _id="lynsw8" _name="JS/LUA程序1"/>
+        <Layout ref="@Text1" x="12" y="236" _id="tpz9tf" _name="文本2"/>
+        <Layout ref="@Text2" x="12" y="275" _id="7ytpcz" _name="文本3"/>
+        <Layout ref="@Text3" x="11" y="16" _id="o69hfm" _name="文本1"/>
+        <Layout ref="@Text4" x="11" y="116" _id="7dafwa" _name="文本1"/>
+        <Layout ref="@_lua/SmoothlyLight/SmoothlyLight.lua" x="0" y="0" _id="iyslua" _name="JS/LUA程序2"/>
+    </Theme>
+    <Theme type="AOD" name="静态非AOD" bgColor="#000000" isPhotoAlbumWatchface="false" _id="tu54e7"/>
+    <Theme type="normal" name="静态AOD" bgColor="#000000" isPhotoAlbumWatchface="false" _id="rjzchl" preview="@Image3">
+        <Layout ref="@_lua/mars4/smash.lua" x="0" y="0" _id="ehr6hg" _name="JS/LUA程序1"/>
+        <Layout ref="@_lua/SmoothlyLight/SmoothlyLight.lua" x="0" y="0" _id="86kg9m" _name="JS/LUA程序2"/>
+        <Layout ref="@Text1" x="12" y="236" _id="xhr67n" _name="文本2"/>
+        <Layout ref="@Text2" x="12" y="275" _id="sohleg" _name="文本3"/>
+        <Layout ref="@Text3" x="11" y="16" _id="ono6ul" _name="文本1"/>
+        <Layout ref="@Text4" x="11" y="116" _id="jcvn55" _name="文本1"/>
+    </Theme>
+    <Theme type="AOD" name="静态AOD" bgColor="#000000" isPhotoAlbumWatchface="false" _id="tyia66">
+        <Layout ref="@Text5" x="12" y="236" _id="02wr3v" _name="文本2"/>
+        <Layout ref="@Text6" x="12" y="275" _id="li0xaj" _name="文本3"/>
+        <Layout ref="@ImageNumber1" x="12" y="126" _id="mr3a7t" _name="图组"/>
+        <Layout ref="@ImageNumber2" x="12" y="27" _id="0hnuyc" _name="图组"/>
+    </Theme>
+    <Theme type="normal" name="常规AOD" bgColor="#000000" isPhotoAlbumWatchface="false" _id="mkyzfx" preview="@Image4">
+        <Layout ref="@_lua/mars3/smash.lua" x="0" y="0" _id="3ek28k" _name="JS/LUA程序1"/>
+        <Layout ref="@_lua/SmoothlyLight/SmoothlyLight.lua" x="0" y="0" _id="qr6d04" _name="JS/LUA程序2"/>
+        <Layout ref="@Text1" x="12" y="236" _id="2quq6q" _name="文本2"/>
+        <Layout ref="@Text2" x="12" y="275" _id="0kkxr6" _name="文本3"/>
+        <Layout ref="@Text3" x="11" y="16" _id="faq8qo" _name="文本1"/>
+        <Layout ref="@Text4" x="11" y="116" _id="m5dznl" _name="文本1"/>
+    </Theme>
+    <Theme type="AOD" name="常规AOD" bgColor="#000000" isPhotoAlbumWatchface="false" _id="8d2d6j">
+        <Layout ref="@Text5" x="12" y="236" _id="xli9hr" _name="文本2"/>
+        <Layout ref="@Text6" x="12" y="275" _id="wnkf8h" _name="文本3"/>
+        <Layout ref="@ImageNumber1" x="12" y="126" _id="hd91t3" _name="图组"/>
+        <Layout ref="@ImageNumber2" x="12" y="27" _id="jqcfdz" _name="图组"/>
     </Theme>
 </Watchface>
