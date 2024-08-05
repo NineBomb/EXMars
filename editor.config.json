@@ -1,12 +1,12 @@
 {
   "themes": [
     {
-      "id": "gkakdm",
-      "name": "常规非AOD",
+      "id": "00lsms",
+      "name": "动态new",
       "type": "normal",
       "children": [
         {
-          "id": "vbgitr",
+          "id": "50ha9x",
           "type": "JsFile",
           "attrs": {
             "sourceEnabled": false,
@@ -20,10 +20,11 @@
             "w": 192,
             "h": 490,
             "rotation": 0,
-            "name": "JS/LUA程序1",
+            "name": "动画",
             "showImgFormat": false,
             "_visibility": true,
             "_isLocked": false,
+            "fileRef": "layout引用",
             "jsFilename": "_lua/mars3/smash.lua",
             "jsImgNames": [
               "_lua/mars3/Mars_0.rle",
@@ -74,14 +75,13 @@
               "_lua/mars3/Mars_8.rle",
               "_lua/mars3/Mars_9.rle"
             ],
-            "fileRef": "layout引用",
             "resources": {
               "jsPreview": {}
             }
           }
         },
         {
-          "id": "tlmqvt",
+          "id": "pykiei",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -97,7 +97,7 @@
             "rotation": 0,
             "name": "文本2",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misans",
             "fontSize": 33,
@@ -115,16 +115,17 @@
                 "isSource": true,
                 "color": "#ffffff",
                 "value": "date",
-                "sourceFormat": 12
+                "sourceFormat": 11
               }
             ],
             "sizeContent": false,
             "reverseText": false,
-            "sourceFormat": 1
+            "sourceFormat": 1,
+            "resources": {}
           }
         },
         {
-          "id": "wzfvg8",
+          "id": "h7aekc",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -140,7 +141,7 @@
             "rotation": 0,
             "name": "文本3",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misans",
             "fontSize": 33,
@@ -162,54 +163,12 @@
             ],
             "sizeContent": false,
             "reverseText": false,
-            "sourceFormat": 1
+            "sourceFormat": 1,
+            "resources": {}
           }
         },
         {
-          "id": "d0s8i6",
-          "type": "Text",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 11,
-            "y": 16,
-            "w": 158,
-            "h": 122,
-            "rotation": 0,
-            "name": "文本1",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fontId": "misansf",
-            "fontSize": 111,
-            "fontWeight": "semibold",
-            "color": "#ffffff",
-            "style": "normal",
-            "align": "left",
-            "letterSpace": -0.5,
-            "radius": 50,
-            "startAngle": 0,
-            "text": "文本",
-            "arcSpan": 45,
-            "strings": [
-              {
-                "isSource": true,
-                "color": "#ffffff",
-                "value": "timeHour",
-                "sourceFormat": 2
-              }
-            ],
-            "sizeContent": false,
-            "reverseText": false,
-            "sourceFormat": 1
-          }
-        },
-        {
-          "id": "g5w1av",
+          "id": "3souqr",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -225,7 +184,7 @@
             "rotation": 0,
             "name": "文本1",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misansf",
             "fontSize": 111,
@@ -233,7 +192,7 @@
             "color": "#ffffff",
             "style": "normal",
             "align": "left",
-            "letterSpace": -0.5,
+            "letterSpace": 0,
             "radius": 50,
             "startAngle": 0,
             "text": "文本",
@@ -252,7 +211,50 @@
           }
         },
         {
-          "id": "tratnc",
+          "id": "a7mlk8",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 11,
+            "y": 16,
+            "w": 162,
+            "h": 122,
+            "rotation": 0,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeHour",
+                "sourceFormat": 2
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1
+          }
+        },
+        {
+          "id": "xfrenb",
           "type": "JsFile",
           "attrs": {
             "sourceEnabled": false,
@@ -266,12 +268,12 @@
             "w": 100,
             "h": 100,
             "rotation": 0,
-            "name": "JS/LUA程序2",
+            "name": "缓慢亮屏top",
             "showImgFormat": false,
             "_visibility": true,
             "_isLocked": false,
             "fileRef": "layout引用",
-            "jsFilename": "_lua/SmoothlyLight/SmoothlyLight.lua",
+            "jsFilename": "_lua/SmoothlyLighttop/SmoothlyLight.lua",
             "jsImgNames": []
           }
         }
@@ -279,36 +281,20 @@
       "bgColor": "#000000",
       "colorGroupTable": [
         {
-          "id": "j1n8eb",
+          "id": "jei48k",
           "name": "配色1",
           "color": "#ffffff"
         }
       ],
-      "preview": "_preview/常规非AOD亮屏预览图.png"
+      "preview": "_preview/动态new亮屏预览图.png"
     },
     {
-      "id": "nlfx6f",
-      "name": "常规非AOD",
+      "id": "mc9knj",
+      "name": "动态new",
       "type": "AOD",
-      "children": [],
-      "bgColor": "#000000",
-      "colorGroupTable": [
-        {
-          "id": "dxs3n5",
-          "name": "配色1",
-          "color": "#ffffff"
-        }
-      ],
-      "preview": "_preview/常规非AOD息屏预览图.png",
-      "isSingleAOD": false
-    },
-    {
-      "id": "mfhhl1",
-      "name": "静态非AOD",
-      "type": "normal",
       "children": [
         {
-          "id": "lynsw8",
+          "id": "yd4ip1",
           "type": "JsFile",
           "attrs": {
             "sourceEnabled": false,
@@ -319,25 +305,68 @@
             "recolorEnable": true,
             "x": 0,
             "y": 0,
-            "w": 192,
-            "h": 490,
+            "w": 100,
+            "h": 100,
             "rotation": 0,
-            "name": "JS/LUA程序1",
+            "name": "动画",
             "showImgFormat": false,
             "_visibility": true,
             "_isLocked": false,
-            "jsFilename": "_lua/mars4/smash.lua",
-            "jsImgNames": [],
             "fileRef": "layout引用",
-            "resources": {
-              "jsPreview": {
-                "ooun9b": []
-              }
-            }
+            "jsFilename": "_lua/mars3/smash.lua",
+            "jsImgNames": [
+              "_lua/mars3/Mars_0.rle",
+              "_lua/mars3/Mars_1.rle",
+              "_lua/mars3/Mars_10.rle",
+              "_lua/mars3/Mars_11.rle",
+              "_lua/mars3/Mars_12.rle",
+              "_lua/mars3/Mars_13.rle",
+              "_lua/mars3/Mars_14.rle",
+              "_lua/mars3/Mars_15.rle",
+              "_lua/mars3/Mars_16.rle",
+              "_lua/mars3/Mars_17.rle",
+              "_lua/mars3/Mars_18.rle",
+              "_lua/mars3/Mars_19.rle",
+              "_lua/mars3/Mars_2.rle",
+              "_lua/mars3/Mars_20.rle",
+              "_lua/mars3/Mars_21.rle",
+              "_lua/mars3/Mars_22.rle",
+              "_lua/mars3/Mars_23.rle",
+              "_lua/mars3/Mars_24.rle",
+              "_lua/mars3/Mars_25.rle",
+              "_lua/mars3/Mars_26.rle",
+              "_lua/mars3/Mars_27.rle",
+              "_lua/mars3/Mars_28.rle",
+              "_lua/mars3/Mars_29.rle",
+              "_lua/mars3/Mars_3.rle",
+              "_lua/mars3/Mars_30.rle",
+              "_lua/mars3/Mars_31.rle",
+              "_lua/mars3/Mars_32.rle",
+              "_lua/mars3/Mars_33.rle",
+              "_lua/mars3/Mars_34.rle",
+              "_lua/mars3/Mars_35.rle",
+              "_lua/mars3/Mars_36.rle",
+              "_lua/mars3/Mars_37.rle",
+              "_lua/mars3/Mars_38.rle",
+              "_lua/mars3/Mars_39.rle",
+              "_lua/mars3/Mars_4.rle",
+              "_lua/mars3/Mars_40.rle",
+              "_lua/mars3/Mars_41.rle",
+              "_lua/mars3/Mars_42.rle",
+              "_lua/mars3/Mars_43.rle",
+              "_lua/mars3/Mars_44.rle",
+              "_lua/mars3/Mars_45.rle",
+              "_lua/mars3/Mars_46.rle",
+              "_lua/mars3/Mars_5.rle",
+              "_lua/mars3/Mars_6.rle",
+              "_lua/mars3/Mars_7.rle",
+              "_lua/mars3/Mars_8.rle",
+              "_lua/mars3/Mars_9.rle"
+            ]
           }
         },
         {
-          "id": "tpz9tf",
+          "id": "y1vfdn",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -353,7 +382,7 @@
             "rotation": 0,
             "name": "文本2",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misans",
             "fontSize": 33,
@@ -371,17 +400,16 @@
                 "isSource": true,
                 "color": "#ffffff",
                 "value": "date",
-                "sourceFormat": 12
+                "sourceFormat": 11
               }
             ],
             "sizeContent": false,
             "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
+            "sourceFormat": 1
           }
         },
         {
-          "id": "7ytpcz",
+          "id": "ymyvwf",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -397,7 +425,7 @@
             "rotation": 0,
             "name": "文本3",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misans",
             "fontSize": 33,
@@ -419,56 +447,11 @@
             ],
             "sizeContent": false,
             "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
+            "sourceFormat": 1
           }
         },
         {
-          "id": "o69hfm",
-          "type": "Text",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 11,
-            "y": 16,
-            "w": 158,
-            "h": 122,
-            "rotation": 0,
-            "name": "文本1",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fontId": "misansf",
-            "fontSize": 111,
-            "fontWeight": "semibold",
-            "color": "#ffffff",
-            "style": "normal",
-            "align": "left",
-            "letterSpace": -0.5,
-            "radius": 50,
-            "startAngle": 0,
-            "text": "文本",
-            "arcSpan": 45,
-            "strings": [
-              {
-                "isSource": true,
-                "color": "#ffffff",
-                "value": "timeHour",
-                "sourceFormat": 2
-              }
-            ],
-            "sizeContent": false,
-            "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
-          }
-        },
-        {
-          "id": "7dafwa",
+          "id": "ed4nhd",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -484,7 +467,7 @@
             "rotation": 0,
             "name": "文本1",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misansf",
             "fontSize": 111,
@@ -492,7 +475,7 @@
             "color": "#ffffff",
             "style": "normal",
             "align": "left",
-            "letterSpace": -0.5,
+            "letterSpace": 0,
             "radius": 50,
             "startAngle": 0,
             "text": "文本",
@@ -507,208 +490,11 @@
             ],
             "sizeContent": false,
             "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
+            "sourceFormat": 1
           }
         },
         {
-          "id": "iyslua",
-          "type": "JsFile",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 0,
-            "y": 0,
-            "w": 100,
-            "h": 100,
-            "rotation": 0,
-            "name": "JS/LUA程序2",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fileRef": "layout引用",
-            "jsFilename": "_lua/SmoothlyLight/SmoothlyLight.lua",
-            "jsImgNames": []
-          }
-        }
-      ],
-      "bgColor": "#000000",
-      "colorGroupTable": [
-        {
-          "id": "ooun9b",
-          "name": "配色1",
-          "color": "#ffffff"
-        }
-      ],
-      "preview": "_preview/静态非AOD亮屏预览图.png"
-    },
-    {
-      "id": "tu54e7",
-      "name": "静态非AOD",
-      "type": "AOD",
-      "children": [],
-      "bgColor": "#000000",
-      "colorGroupTable": [
-        {
-          "id": "shh0pb",
-          "name": "配色1",
-          "color": "#ffffff"
-        }
-      ],
-      "preview": "_preview/静态非AOD息屏预览图.png",
-      "isSingleAOD": false
-    },
-    {
-      "id": "rjzchl",
-      "name": "静态AOD",
-      "type": "normal",
-      "children": [
-        {
-          "id": "ehr6hg",
-          "type": "JsFile",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 0,
-            "y": 0,
-            "w": 192,
-            "h": 490,
-            "rotation": 0,
-            "name": "JS/LUA程序1",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "jsFilename": "_lua/mars4/smash.lua",
-            "jsImgNames": [],
-            "fileRef": "layout引用",
-            "resources": {
-              "jsPreview": {
-                "p34ssa": []
-              }
-            }
-          }
-        },
-        {
-          "id": "86kg9m",
-          "type": "JsFile",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 0,
-            "y": 0,
-            "w": 100,
-            "h": 100,
-            "rotation": 0,
-            "name": "JS/LUA程序2",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fileRef": "layout引用",
-            "jsFilename": "_lua/SmoothlyLight/SmoothlyLight.lua",
-            "jsImgNames": []
-          }
-        },
-        {
-          "id": "xhr67n",
-          "type": "Text",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 12,
-            "y": 236,
-            "w": 109,
-            "h": 44,
-            "rotation": 0,
-            "name": "文本2",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fontId": "misans",
-            "fontSize": 33,
-            "fontWeight": "medium",
-            "color": "#ffffff",
-            "style": "normal",
-            "align": "left",
-            "letterSpace": 0,
-            "radius": 50,
-            "startAngle": 0,
-            "text": "文本",
-            "arcSpan": 45,
-            "strings": [
-              {
-                "isSource": true,
-                "color": "#ffffff",
-                "value": "date",
-                "sourceFormat": 12
-              }
-            ],
-            "sizeContent": false,
-            "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
-          }
-        },
-        {
-          "id": "sohleg",
-          "type": "Text",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 12,
-            "y": 275,
-            "w": 66,
-            "h": 37,
-            "rotation": 0,
-            "name": "文本3",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fontId": "misans",
-            "fontSize": 33,
-            "fontWeight": "medium",
-            "color": "#ffffff",
-            "style": "normal",
-            "align": "left",
-            "letterSpace": 0,
-            "radius": 50,
-            "startAngle": 0,
-            "text": "文本",
-            "arcSpan": 45,
-            "strings": [
-              {
-                "isSource": true,
-                "color": "#ffffff",
-                "value": "dateWeekStringShortCN"
-              }
-            ],
-            "sizeContent": false,
-            "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
-          }
-        },
-        {
-          "id": "ono6ul",
+          "id": "2utpwd",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -719,12 +505,12 @@
             "recolorEnable": true,
             "x": 11,
             "y": 16,
-            "w": 158,
+            "w": 162,
             "h": 122,
             "rotation": 0,
             "name": "文本1",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misansf",
             "fontSize": 111,
@@ -732,7 +518,7 @@
             "color": "#ffffff",
             "style": "normal",
             "align": "left",
-            "letterSpace": -0.5,
+            "letterSpace": 0,
             "radius": 50,
             "startAngle": 0,
             "text": "文本",
@@ -747,274 +533,28 @@
             ],
             "sizeContent": false,
             "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
-          }
-        },
-        {
-          "id": "jcvn55",
-          "type": "Text",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 11,
-            "y": 116,
-            "w": 162,
-            "h": 122,
-            "rotation": 0,
-            "name": "文本1",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fontId": "misansf",
-            "fontSize": 111,
-            "fontWeight": "semibold",
-            "color": "#ffffff",
-            "style": "normal",
-            "align": "left",
-            "letterSpace": -0.5,
-            "radius": 50,
-            "startAngle": 0,
-            "text": "文本",
-            "arcSpan": 45,
-            "strings": [
-              {
-                "isSource": true,
-                "color": "#ffffff",
-                "value": "timeMinute",
-                "sourceFormat": 2
-              }
-            ],
-            "sizeContent": false,
-            "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
+            "sourceFormat": 1
           }
         }
       ],
       "bgColor": "#000000",
       "colorGroupTable": [
         {
-          "id": "p34ssa",
+          "id": "jei48k",
           "name": "配色1",
           "color": "#ffffff"
         }
       ],
-      "preview": "_preview/静态AOD亮屏预览图.png"
-    },
-    {
-      "id": "tyia66",
-      "name": "静态AOD",
-      "type": "AOD",
-      "children": [
-        {
-          "id": "02wr3v",
-          "type": "Text",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 12,
-            "y": 236,
-            "w": 109,
-            "h": 44,
-            "rotation": 0,
-            "name": "文本2",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fontId": "misans",
-            "fontSize": 33,
-            "fontWeight": "demibold",
-            "color": "#ffffff",
-            "style": "normal",
-            "align": "left",
-            "letterSpace": 0,
-            "radius": 50,
-            "startAngle": 0,
-            "text": "文本",
-            "arcSpan": 45,
-            "strings": [
-              {
-                "isSource": true,
-                "color": "#ffffff",
-                "value": "date",
-                "sourceFormat": 12
-              }
-            ],
-            "sizeContent": false,
-            "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
-          }
-        },
-        {
-          "id": "li0xaj",
-          "type": "Text",
-          "attrs": {
-            "sourceEnabled": false,
-            "valueStart": 0,
-            "valueEnd": 0,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 12,
-            "y": 275,
-            "w": 66,
-            "h": 37,
-            "rotation": 0,
-            "name": "文本3",
-            "showImgFormat": false,
-            "_visibility": true,
-            "_isLocked": false,
-            "fontId": "misans",
-            "fontSize": 33,
-            "fontWeight": "demibold",
-            "color": "#ffffff",
-            "style": "normal",
-            "align": "left",
-            "letterSpace": 0,
-            "radius": 50,
-            "startAngle": 0,
-            "text": "文本",
-            "arcSpan": 45,
-            "strings": [
-              {
-                "isSource": true,
-                "color": "#ffffff",
-                "value": "dateWeekStringShortCN"
-              }
-            ],
-            "sizeContent": false,
-            "reverseText": false,
-            "sourceFormat": 1,
-            "resources": {}
-          }
-        },
-        {
-          "id": "mr3a7t",
-          "type": "ImageArray",
-          "attrs": {
-            "sourceEnabled": true,
-            "source": "timeMinute",
-            "valueStart": 0,
-            "valueEnd": 60,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 12,
-            "y": 126,
-            "w": 70,
-            "h": 120,
-            "rotation": 0,
-            "name": "图组",
-            "showImgFormat": true,
-            "_visibility": true,
-            "_isLocked": false,
-            "fillType": "数字填充",
-            "align": "left",
-            "space": 0,
-            "widgetSpace": 0,
-            "sourceProgressAccuracy": 10,
-            "sourceWeatherType": "whole",
-            "sourceFormat": 2,
-            "sourceHourMode": "system",
-            "resources": {
-              "images": {
-                "p34ssa": [
-                  "AOD/0_31475ca.png",
-                  "AOD/1_eb1ee7f.png",
-                  "AOD/2_ec7ec50.png",
-                  "AOD/3_2d262da.png",
-                  "AOD/4_1c83bdc.png",
-                  "AOD/5_1d53a68.png",
-                  "AOD/6_52c8ab9.png",
-                  "AOD/7_68eb9a7.png",
-                  "AOD/8_e01fb67.png",
-                  "AOD/9_31e2260.png"
-                ]
-              }
-            },
-            "decimalOffsetX": "0",
-            "trailingZero": false,
-            "format": "indexed8"
-          }
-        },
-        {
-          "id": "0hnuyc",
-          "type": "ImageArray",
-          "attrs": {
-            "sourceEnabled": true,
-            "source": "timeHour",
-            "valueStart": 0,
-            "valueEnd": 24,
-            "angleStart": 0,
-            "angleEnd": 360,
-            "recolorEnable": true,
-            "x": 12,
-            "y": 27,
-            "w": 70,
-            "h": 120,
-            "rotation": 0,
-            "name": "图组",
-            "showImgFormat": true,
-            "_visibility": true,
-            "_isLocked": false,
-            "fillType": "数字填充",
-            "align": "left",
-            "space": 0,
-            "widgetSpace": 0,
-            "sourceProgressAccuracy": 10,
-            "sourceWeatherType": "whole",
-            "sourceFormat": 2,
-            "sourceHourMode": "system",
-            "resources": {
-              "images": {
-                "p34ssa": [
-                  "AOD/0_31475ca.png",
-                  "AOD/1_eb1ee7f.png",
-                  "AOD/2_ec7ec50.png",
-                  "AOD/3_2d262da.png",
-                  "AOD/4_1c83bdc.png",
-                  "AOD/5_1d53a68.png",
-                  "AOD/6_52c8ab9.png",
-                  "AOD/7_68eb9a7.png",
-                  "AOD/8_e01fb67.png",
-                  "AOD/9_31e2260.png"
-                ]
-              }
-            },
-            "decimalOffsetX": "0",
-            "trailingZero": false,
-            "format": "indexed8"
-          }
-        }
-      ],
-      "bgColor": "#000000",
-      "colorGroupTable": [
-        {
-          "id": "p34ssa",
-          "name": "配色1",
-          "color": "#ffffff"
-        }
-      ],
-      "preview": "_preview/静态AOD息屏预览图.png",
+      "preview": "_preview/动态new息屏预览图.png",
       "isSingleAOD": false
     },
     {
-      "id": "mkyzfx",
-      "name": "常规AOD",
+      "id": "v06dc8",
+      "name": "动态默认",
       "type": "normal",
       "children": [
         {
-          "id": "3ek28k",
+          "id": "vy3iyp",
           "type": "JsFile",
           "attrs": {
             "sourceEnabled": false,
@@ -1025,13 +565,14 @@
             "recolorEnable": true,
             "x": 0,
             "y": 0,
-            "w": 192,
-            "h": 490,
+            "w": 100,
+            "h": 100,
             "rotation": 0,
-            "name": "JS/LUA程序1",
+            "name": "动画",
             "showImgFormat": false,
             "_visibility": true,
             "_isLocked": false,
+            "fileRef": "layout引用",
             "jsFilename": "_lua/mars3/smash.lua",
             "jsImgNames": [
               "_lua/mars3/Mars_0.rle",
@@ -1082,16 +623,11 @@
               "_lua/mars3/Mars_8.rle",
               "_lua/mars3/Mars_9.rle"
             ],
-            "fileRef": "layout引用",
-            "resources": {
-              "jsPreview": {
-                "jj5k9m": []
-              }
-            }
+            "resources": {}
           }
         },
         {
-          "id": "qr6d04",
+          "id": "w1scpr",
           "type": "JsFile",
           "attrs": {
             "sourceEnabled": false,
@@ -1105,18 +641,17 @@
             "w": 100,
             "h": 100,
             "rotation": 0,
-            "name": "JS/LUA程序2",
+            "name": "缓慢亮屏mid",
             "showImgFormat": false,
             "_visibility": true,
             "_isLocked": false,
             "fileRef": "layout引用",
-            "jsFilename": "_lua/SmoothlyLight/SmoothlyLight.lua",
-            "jsImgNames": [],
-            "resources": {}
+            "jsFilename": "_lua/SmoothlyLightmiddle/SmoothlyLight.lua",
+            "jsImgNames": []
           }
         },
         {
-          "id": "2quq6q",
+          "id": "ty421u",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -1132,7 +667,7 @@
             "rotation": 0,
             "name": "文本2",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misans",
             "fontSize": 33,
@@ -1150,7 +685,7 @@
                 "isSource": true,
                 "color": "#ffffff",
                 "value": "date",
-                "sourceFormat": 12
+                "sourceFormat": 11
               }
             ],
             "sizeContent": false,
@@ -1160,7 +695,7 @@
           }
         },
         {
-          "id": "0kkxr6",
+          "id": "lj2ouh",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -1176,7 +711,7 @@
             "rotation": 0,
             "name": "文本3",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misans",
             "fontSize": 33,
@@ -1203,7 +738,51 @@
           }
         },
         {
-          "id": "faq8qo",
+          "id": "uaxt9w",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 11,
+            "y": 116,
+            "w": 162,
+            "h": 122,
+            "rotation": 0,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeMinute",
+                "sourceFormat": 2
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        },
+        {
+          "id": "5vmdgd",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -1214,12 +793,12 @@
             "recolorEnable": true,
             "x": 11,
             "y": 16,
-            "w": 158,
+            "w": 162,
             "h": 122,
             "rotation": 0,
             "name": "文本1",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misansf",
             "fontSize": 111,
@@ -1227,7 +806,7 @@
             "color": "#ffffff",
             "style": "normal",
             "align": "left",
-            "letterSpace": -0.5,
+            "letterSpace": 0,
             "radius": 50,
             "startAngle": 0,
             "text": "文本",
@@ -1247,8 +826,8 @@
           }
         },
         {
-          "id": "m5dznl",
-          "type": "Text",
+          "id": "iojdlo",
+          "type": "JsFile",
           "attrs": {
             "sourceEnabled": false,
             "valueStart": 0,
@@ -1256,37 +835,18 @@
             "angleStart": 0,
             "angleEnd": 360,
             "recolorEnable": true,
-            "x": 11,
-            "y": 116,
-            "w": 162,
-            "h": 122,
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100,
             "rotation": 0,
-            "name": "文本1",
+            "name": "缓慢亮屏top",
             "showImgFormat": false,
             "_visibility": true,
             "_isLocked": false,
-            "fontId": "misansf",
-            "fontSize": 111,
-            "fontWeight": "semibold",
-            "color": "#ffffff",
-            "style": "normal",
-            "align": "left",
-            "letterSpace": -0.5,
-            "radius": 50,
-            "startAngle": 0,
-            "text": "文本",
-            "arcSpan": 45,
-            "strings": [
-              {
-                "isSource": true,
-                "color": "#ffffff",
-                "value": "timeMinute",
-                "sourceFormat": 2
-              }
-            ],
-            "sizeContent": false,
-            "reverseText": false,
-            "sourceFormat": 1,
+            "fileRef": "layout引用",
+            "jsFilename": "_lua/SmoothlyLighttop/SmoothlyLight.lua",
+            "jsImgNames": [],
             "resources": {}
           }
         }
@@ -1294,20 +854,20 @@
       "bgColor": "#000000",
       "colorGroupTable": [
         {
-          "id": "jj5k9m",
+          "id": "e2q4a4",
           "name": "配色1",
           "color": "#ffffff"
         }
       ],
-      "preview": "_preview/常规AOD亮屏预览图.png"
+      "preview": "_preview/动态默认亮屏预览图.png"
     },
     {
-      "id": "8d2d6j",
-      "name": "常规AOD",
+      "id": "l59v9d",
+      "name": "动态默认",
       "type": "AOD",
       "children": [
         {
-          "id": "xli9hr",
+          "id": "9d4dqm",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -1323,11 +883,11 @@
             "rotation": 0,
             "name": "文本2",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misans",
             "fontSize": 33,
-            "fontWeight": "demibold",
+            "fontWeight": "medium",
             "color": "#ffffff",
             "style": "normal",
             "align": "left",
@@ -1341,7 +901,7 @@
                 "isSource": true,
                 "color": "#ffffff",
                 "value": "date",
-                "sourceFormat": 12
+                "sourceFormat": 11
               }
             ],
             "sizeContent": false,
@@ -1351,7 +911,7 @@
           }
         },
         {
-          "id": "wnkf8h",
+          "id": "j4vthk",
           "type": "Text",
           "attrs": {
             "sourceEnabled": false,
@@ -1367,11 +927,11 @@
             "rotation": 0,
             "name": "文本3",
             "showImgFormat": false,
-            "_visibility": true,
+            "_visibility": false,
             "_isLocked": false,
             "fontId": "misans",
             "fontSize": 33,
-            "fontWeight": "demibold",
+            "fontWeight": "medium",
             "color": "#ffffff",
             "style": "normal",
             "align": "left",
@@ -1394,135 +954,566 @@
           }
         },
         {
-          "id": "hd91t3",
-          "type": "ImageArray",
+          "id": "gusigb",
+          "type": "Text",
           "attrs": {
-            "sourceEnabled": true,
-            "source": "timeMinute",
+            "sourceEnabled": false,
             "valueStart": 0,
-            "valueEnd": 60,
+            "valueEnd": 0,
             "angleStart": 0,
             "angleEnd": 360,
             "recolorEnable": true,
-            "x": 12,
-            "y": 126,
-            "w": 70,
-            "h": 120,
+            "x": 11,
+            "y": 116,
+            "w": 162,
+            "h": 122,
             "rotation": 0,
-            "name": "图组",
-            "showImgFormat": true,
-            "_visibility": true,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": false,
             "_isLocked": false,
-            "fillType": "数字填充",
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
             "align": "left",
-            "space": 0,
-            "widgetSpace": 0,
-            "sourceProgressAccuracy": 10,
-            "sourceWeatherType": "whole",
-            "sourceFormat": 2,
-            "sourceHourMode": "system",
-            "resources": {
-              "images": {
-                "jj5k9m": [
-                  "AOD/0_31475ca.png",
-                  "AOD/1_eb1ee7f.png",
-                  "AOD/2_ec7ec50.png",
-                  "AOD/3_2d262da.png",
-                  "AOD/4_1c83bdc.png",
-                  "AOD/5_1d53a68.png",
-                  "AOD/6_52c8ab9.png",
-                  "AOD/7_68eb9a7.png",
-                  "AOD/8_e01fb67.png",
-                  "AOD/9_31e2260.png"
-                ]
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeMinute",
+                "sourceFormat": 2
               }
-            },
-            "decimalOffsetX": "0",
-            "trailingZero": false,
-            "format": "indexed8"
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
           }
         },
         {
-          "id": "jqcfdz",
-          "type": "ImageArray",
+          "id": "o8r35q",
+          "type": "Text",
           "attrs": {
-            "sourceEnabled": true,
-            "source": "timeHour",
+            "sourceEnabled": false,
             "valueStart": 0,
-            "valueEnd": 24,
+            "valueEnd": 0,
             "angleStart": 0,
             "angleEnd": 360,
             "recolorEnable": true,
-            "x": 12,
-            "y": 27,
-            "w": 70,
-            "h": 120,
+            "x": 11,
+            "y": 16,
+            "w": 162,
+            "h": 122,
             "rotation": 0,
-            "name": "图组",
-            "showImgFormat": true,
-            "_visibility": true,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": false,
             "_isLocked": false,
-            "fillType": "数字填充",
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
             "align": "left",
-            "space": 0,
-            "widgetSpace": 0,
-            "sourceProgressAccuracy": 10,
-            "sourceWeatherType": "whole",
-            "sourceFormat": 2,
-            "sourceHourMode": "system",
-            "resources": {
-              "images": {
-                "jj5k9m": [
-                  "AOD/0_31475ca.png",
-                  "AOD/1_eb1ee7f.png",
-                  "AOD/2_ec7ec50.png",
-                  "AOD/3_2d262da.png",
-                  "AOD/4_1c83bdc.png",
-                  "AOD/5_1d53a68.png",
-                  "AOD/6_52c8ab9.png",
-                  "AOD/7_68eb9a7.png",
-                  "AOD/8_e01fb67.png",
-                  "AOD/9_31e2260.png"
-                ]
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeHour",
+                "sourceFormat": 2
               }
-            },
-            "decimalOffsetX": "0",
-            "trailingZero": false,
-            "format": "indexed8"
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
           }
         }
       ],
       "bgColor": "#000000",
       "colorGroupTable": [
         {
-          "id": "jj5k9m",
+          "id": "e2q4a4",
           "name": "配色1",
           "color": "#ffffff"
         }
       ],
-      "preview": "_preview/常规AOD息屏预览图.png",
+      "preview": "_preview/动态默认息屏预览图.png",
+      "isSingleAOD": false
+    },
+    {
+      "id": "0535fo",
+      "name": "静态",
+      "type": "normal",
+      "children": [
+        {
+          "id": "125vbe",
+          "type": "JsFile",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100,
+            "rotation": 0,
+            "name": "动画",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fileRef": "layout引用",
+            "jsFilename": "_lua/mars4/smash.lua",
+            "jsImgNames": [],
+            "resources": {}
+          }
+        },
+        {
+          "id": "y0uvxl",
+          "type": "JsFile",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100,
+            "rotation": 0,
+            "name": "缓慢亮屏mid",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fileRef": "layout引用",
+            "jsFilename": "_lua/SmoothlyLightmiddle/SmoothlyLight.lua",
+            "jsImgNames": [],
+            "resources": {}
+          }
+        },
+        {
+          "id": "kwmg5e",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 236,
+            "w": 109,
+            "h": 44,
+            "rotation": 0,
+            "name": "文本2",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misans",
+            "fontSize": 33,
+            "fontWeight": "medium",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "date",
+                "sourceFormat": 11
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        },
+        {
+          "id": "b0wqxf",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 275,
+            "w": 66,
+            "h": 37,
+            "rotation": 0,
+            "name": "文本3",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misans",
+            "fontSize": 33,
+            "fontWeight": "medium",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "dateWeekStringShortCN"
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        },
+        {
+          "id": "o67i8s",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 11,
+            "y": 116,
+            "w": 162,
+            "h": 122,
+            "rotation": 0,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeMinute",
+                "sourceFormat": 2
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        },
+        {
+          "id": "nzhamb",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 11,
+            "y": 16,
+            "w": 162,
+            "h": 122,
+            "rotation": 0,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeHour",
+                "sourceFormat": 2
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        },
+        {
+          "id": "2sbm4l",
+          "type": "JsFile",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100,
+            "rotation": 0,
+            "name": "缓慢亮屏top",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fileRef": "layout引用",
+            "jsFilename": "_lua/SmoothlyLighttop/SmoothlyLight.lua",
+            "jsImgNames": [],
+            "resources": {}
+          }
+        }
+      ],
+      "bgColor": "#000000",
+      "colorGroupTable": [
+        {
+          "id": "fi468k",
+          "name": "配色1",
+          "color": "#ffffff"
+        }
+      ],
+      "preview": "_preview/静态亮屏预览图.png"
+    },
+    {
+      "id": "cckbzn",
+      "name": "静态",
+      "type": "AOD",
+      "children": [
+        {
+          "id": "rvjte8",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 236,
+            "w": 109,
+            "h": 44,
+            "rotation": 0,
+            "name": "文本2",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misans",
+            "fontSize": 33,
+            "fontWeight": "medium",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "date",
+                "sourceFormat": 11
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        },
+        {
+          "id": "naedvv",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 12,
+            "y": 275,
+            "w": 66,
+            "h": 37,
+            "rotation": 0,
+            "name": "文本3",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misans",
+            "fontSize": 33,
+            "fontWeight": "medium",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "dateWeekStringShortCN"
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        },
+        {
+          "id": "6zcmlk",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 11,
+            "y": 116,
+            "w": 162,
+            "h": 122,
+            "rotation": 0,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeMinute",
+                "sourceFormat": 2
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        },
+        {
+          "id": "86ch6p",
+          "type": "Text",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 11,
+            "y": 16,
+            "w": 162,
+            "h": 122,
+            "rotation": 0,
+            "name": "文本1",
+            "showImgFormat": false,
+            "_visibility": false,
+            "_isLocked": false,
+            "fontId": "misansf",
+            "fontSize": 111,
+            "fontWeight": "semibold",
+            "color": "#ffffff",
+            "style": "normal",
+            "align": "left",
+            "letterSpace": 0,
+            "radius": 50,
+            "startAngle": 0,
+            "text": "文本",
+            "arcSpan": 45,
+            "strings": [
+              {
+                "isSource": true,
+                "color": "#ffffff",
+                "value": "timeHour",
+                "sourceFormat": 2
+              }
+            ],
+            "sizeContent": false,
+            "reverseText": false,
+            "sourceFormat": 1,
+            "resources": {}
+          }
+        }
+      ],
+      "bgColor": "#000000",
+      "colorGroupTable": [
+        {
+          "id": "fi468k",
+          "name": "配色1",
+          "color": "#ffffff"
+        }
+      ],
+      "preview": "_preview/静态息屏预览图.png",
       "isSingleAOD": false
     }
   ],
   "i18n": {
     "translations": {},
     "locales": []
-  },
-  "formats": {
-    "_preview/样式1亮屏预览图.png": "indexed8",
-    "8789a2f.png": "indexed8",
-    "_preview/样式1息屏预览图.png": "indexed8",
-    "AOD/0_31475ca.png": "indexed8",
-    "AOD/1_eb1ee7f.png": "indexed8",
-    "AOD/2_ec7ec50.png": "indexed8",
-    "AOD/3_2d262da.png": "indexed8",
-    "AOD/4_1c83bdc.png": "indexed8",
-    "AOD/5_1d53a68.png": "indexed8",
-    "AOD/6_52c8ab9.png": "indexed8",
-    "AOD/7_68eb9a7.png": "indexed8",
-    "AOD/8_e01fb67.png": "indexed8",
-    "AOD/9_31e2260.png": "indexed8",
-    "535a70f.png": "indexed8",
-    "_preview/样式2亮屏预览图.png": "indexed8"
   }
 }
